@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Enumeration: WStatus
 
-Defined in: uniform.ts/src/original/next/Interface.ts:1
+Defined in: modules/projects/uniform.ts/src/original/next/Interface.ts:1
 
 ## Enumeration Members
 
@@ -16,7 +16,7 @@ Defined in: uniform.ts/src/original/next/Interface.ts:1
 ERROR: "error";
 ```
 
-Defined in: uniform.ts/src/original/next/Interface.ts:3
+Defined in: modules/projects/uniform.ts/src/original/next/Interface.ts:3
 
 ***
 
@@ -26,4 +26,4 @@ Defined in: uniform.ts/src/original/next/Interface.ts:3
 SUCCESS: "success";
 ```
 
-Defined in: uniform.ts/src/original/next/Interface.ts:2
+Defined in: modules/projects/uniform.ts/src/original/next/Interface.ts:2

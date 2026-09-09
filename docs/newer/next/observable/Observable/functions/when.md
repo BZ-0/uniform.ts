@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -12,7 +12,7 @@
 function when<K>(target, eventName): Observable<HTMLElementEventMap[K]>;
 ```
 
-Defined in: uniform.ts/src/newer/next/observable/Observable.ts:351
+Defined in: modules/projects/uniform.ts/src/newer/next/observable/Observable.ts:351
 
 ### Type Parameters
 
@@ -40,7 +40,7 @@ Defined in: uniform.ts/src/newer/next/observable/Observable.ts:351
 function when(target, eventName): Observable<Event>;
 ```
 
-Defined in: uniform.ts/src/newer/next/observable/Observable.ts:352
+Defined in: modules/projects/uniform.ts/src/newer/next/observable/Observable.ts:352
 
 ### Parameters
 

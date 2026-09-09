@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 function createWorkerChannel(config): Promise<WorkerChannel>;
 ```
 
-Defined in: uniform.ts/src/original/next/Utils.ts:169
+Defined in: modules/projects/uniform.ts/src/original/next/Utils.ts:169
 
 Create a worker channel with simplified API
 

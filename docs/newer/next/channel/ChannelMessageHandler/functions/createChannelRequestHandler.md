@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 function createChannelRequestHandler(channelName, options?): MessageHandlerCallback<ChannelMessage<any>>;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/ChannelMessageHandler.ts:152
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/ChannelMessageHandler.ts:152
 
 ## Parameters
 

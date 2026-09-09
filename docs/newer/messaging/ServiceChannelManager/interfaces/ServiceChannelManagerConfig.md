@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: ServiceChannelManagerConfig
 
-Defined in: uniform.ts/src/newer/messaging/ServiceChannelManager.ts:47
+Defined in: modules/projects/uniform.ts/src/newer/messaging/ServiceChannelManager.ts:47
 
 Service channel manager configuration
 
@@ -18,7 +18,7 @@ Service channel manager configuration
 optional channels?: Record<string, ServiceChannelConfig>;
 ```
 
-Defined in: uniform.ts/src/newer/messaging/ServiceChannelManager.ts:49
+Defined in: modules/projects/uniform.ts/src/newer/messaging/ServiceChannelManager.ts:49
 
 Channel configurations by ID
 
@@ -30,6 +30,6 @@ Channel configurations by ID
 optional logPrefix?: string;
 ```
 
-Defined in: uniform.ts/src/newer/messaging/ServiceChannelManager.ts:51
+Defined in: modules/projects/uniform.ts/src/newer/messaging/ServiceChannelManager.ts:51
 
 Log prefix for debugging

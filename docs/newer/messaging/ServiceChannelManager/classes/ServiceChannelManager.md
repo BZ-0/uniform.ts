@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Class: ServiceChannelManager\<TChannelId\>
 
-Defined in: uniform.ts/src/newer/messaging/ServiceChannelManager.ts:58
+Defined in: modules/projects/uniform.ts/src/newer/messaging/ServiceChannelManager.ts:58
 
 ## Type Parameters
 
@@ -22,7 +22,7 @@ Defined in: uniform.ts/src/newer/messaging/ServiceChannelManager.ts:58
 new ServiceChannelManager<TChannelId>(config?): ServiceChannelManager<TChannelId>;
 ```
 
-Defined in: uniform.ts/src/newer/messaging/ServiceChannelManager.ts:66
+Defined in: modules/projects/uniform.ts/src/newer/messaging/ServiceChannelManager.ts:66
 
 #### Parameters
 
@@ -42,10 +42,11 @@ Defined in: uniform.ts/src/newer/messaging/ServiceChannelManager.ts:66
 broadcast<T>(
    type, 
    data, 
-   source?): void;
+   source?
+): void;
 ```
 
-Defined in: uniform.ts/src/newer/messaging/ServiceChannelManager.ts:217
+Defined in: modules/projects/uniform.ts/src/newer/messaging/ServiceChannelManager.ts:217
 
 Broadcast a message to all initialized channels
 
@@ -81,7 +82,7 @@ Broadcast a message to all initialized channels
 closeAll(): void;
 ```
 
-Defined in: uniform.ts/src/newer/messaging/ServiceChannelManager.ts:163
+Defined in: modules/projects/uniform.ts/src/newer/messaging/ServiceChannelManager.ts:163
 
 Close all channels
 
@@ -97,7 +98,7 @@ Close all channels
 closeChannel(channelId): void;
 ```
 
-Defined in: uniform.ts/src/newer/messaging/ServiceChannelManager.ts:149
+Defined in: modules/projects/uniform.ts/src/newer/messaging/ServiceChannelManager.ts:149
 
 Close a service channel
 
@@ -119,7 +120,7 @@ Close a service channel
 getAllConfigs(): Record<string, ServiceChannelConfig>;
 ```
 
-Defined in: uniform.ts/src/newer/messaging/ServiceChannelManager.ts:94
+Defined in: modules/projects/uniform.ts/src/newer/messaging/ServiceChannelManager.ts:94
 
 Get all channel configurations
 
@@ -137,7 +138,7 @@ getConfig(channelId):
   | undefined;
 ```
 
-Defined in: uniform.ts/src/newer/messaging/ServiceChannelManager.ts:87
+Defined in: modules/projects/uniform.ts/src/newer/messaging/ServiceChannelManager.ts:87
 
 Get channel configuration
 
@@ -160,7 +161,7 @@ Get channel configuration
 getExecutionContext(): string;
 ```
 
-Defined in: uniform.ts/src/newer/messaging/ServiceChannelManager.ts:311
+Defined in: modules/projects/uniform.ts/src/newer/messaging/ServiceChannelManager.ts:311
 
 Get execution context
 
@@ -176,7 +177,7 @@ Get execution context
 getInitializedChannels(): TChannelId[];
 ```
 
-Defined in: uniform.ts/src/newer/messaging/ServiceChannelManager.ts:287
+Defined in: modules/projects/uniform.ts/src/newer/messaging/ServiceChannelManager.ts:287
 
 Get all initialized channel IDs
 
@@ -192,7 +193,7 @@ Get all initialized channel IDs
 getStatus(): Record<string, ChannelState>;
 ```
 
-Defined in: uniform.ts/src/newer/messaging/ServiceChannelManager.ts:294
+Defined in: modules/projects/uniform.ts/src/newer/messaging/ServiceChannelManager.ts:294
 
 Get channel status
 
@@ -208,7 +209,7 @@ Get channel status
 initChannel(channelId): Promise<BroadcastChannel>;
 ```
 
-Defined in: uniform.ts/src/newer/messaging/ServiceChannelManager.ts:105
+Defined in: modules/projects/uniform.ts/src/newer/messaging/ServiceChannelManager.ts:105
 
 Initialize a service channel
 
@@ -230,7 +231,7 @@ Initialize a service channel
 isInitialized(channelId): boolean;
 ```
 
-Defined in: uniform.ts/src/newer/messaging/ServiceChannelManager.ts:280
+Defined in: modules/projects/uniform.ts/src/newer/messaging/ServiceChannelManager.ts:280
 
 Check if channel is initialized
 
@@ -252,7 +253,7 @@ Check if channel is initialized
 registerConfigs(configs): void;
 ```
 
-Defined in: uniform.ts/src/newer/messaging/ServiceChannelManager.ts:80
+Defined in: modules/projects/uniform.ts/src/newer/messaging/ServiceChannelManager.ts:80
 
 Register channel configurations
 
@@ -275,10 +276,11 @@ send<T>(
    target, 
    type, 
    data, 
-options?): Promise<void>;
+   options?
+): Promise<void>;
 ```
 
-Defined in: uniform.ts/src/newer/messaging/ServiceChannelManager.ts:188
+Defined in: modules/projects/uniform.ts/src/newer/messaging/ServiceChannelManager.ts:188
 
 Send a message to a channel
 
@@ -324,7 +326,7 @@ Send a message to a channel
 subscribe(channelId, handler): () => void;
 ```
 
-Defined in: uniform.ts/src/newer/messaging/ServiceChannelManager.ts:234
+Defined in: modules/projects/uniform.ts/src/newer/messaging/ServiceChannelManager.ts:234
 
 Subscribe to messages on a channel
 
@@ -350,7 +352,7 @@ Subscribe to messages on a channel
 waitForChannel(channelId): Promise<void>;
 ```
 
-Defined in: uniform.ts/src/newer/messaging/ServiceChannelManager.ts:172
+Defined in: modules/projects/uniform.ts/src/newer/messaging/ServiceChannelManager.ts:172
 
 Wait for a channel to be ready
 

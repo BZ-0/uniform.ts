@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 function bindServiceWorkerHostBridge(host, scope?): ServiceWorkerHostBridgeHandle;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/ServiceWorkerHost.ts:787
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/ServiceWorkerHost.ts:787
 
 Bind a ServiceWorkerHost to the ambient service-worker lifecycle.
 

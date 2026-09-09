@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 function createUnifiedChannel(config): UnifiedChannel;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/UnifiedChannel.ts:1082
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/UnifiedChannel.ts:1082
 
 Create a unified channel
 

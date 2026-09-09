@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 function normalizeTransportTypeAlias(transport): TransportType;
 ```
 
-Defined in: uniform.ts/src/newer/core/TransportCore.ts:90
+Defined in: modules/projects/uniform.ts/src/newer/core/TransportCore.ts:90
 
 ## Parameters
 

@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -10,10 +10,11 @@
 function addPortChannel(
    name, 
    port, 
-options?): Promise<ChannelEndpoint>;
+   options?
+): Promise<ChannelEndpoint>;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/ChannelContext.ts:1356
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/ChannelContext.ts:1356
 
 Add a MessagePort channel to the default global context
 

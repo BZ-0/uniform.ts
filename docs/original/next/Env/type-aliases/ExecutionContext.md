@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../README.md)
 
 ***
 
@@ -10,4 +10,4 @@
 type ExecutionContext = "main" | "service-worker" | "chrome-extension" | "unknown";
 ```
 
-Defined in: uniform.ts/src/original/next/Env.ts:1
+Defined in: modules/projects/uniform.ts/src/original/next/Env.ts:1

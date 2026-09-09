@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 type MessageHandlerCallback<T> = (data, respond) => void | Promise<void>;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/ChannelMessageHandler.ts:25
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/ChannelMessageHandler.ts:25
 
 ## Type Parameters
 

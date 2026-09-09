@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Class: AtomicsRingBuffer
 
-Defined in: uniform.ts/src/newer/next/transport/AtomicsTransport.ts:467
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/AtomicsTransport.ts:467
 
 Lock-free ring buffer for high-throughput message passing
 
@@ -18,7 +18,7 @@ Lock-free ring buffer for high-throughput message passing
 new AtomicsRingBuffer(bufferOrConfig?): AtomicsRingBuffer;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/AtomicsTransport.ts:481
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/AtomicsTransport.ts:481
 
 #### Parameters
 
@@ -41,7 +41,7 @@ Defined in: uniform.ts/src/newer/next/transport/AtomicsTransport.ts:481
 get available(): number;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/AtomicsTransport.ts:580
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/AtomicsTransport.ts:580
 
 ##### Returns
 
@@ -57,7 +57,7 @@ Defined in: uniform.ts/src/newer/next/transport/AtomicsTransport.ts:580
 get buffer(): SharedArrayBuffer;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/AtomicsTransport.ts:579
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/AtomicsTransport.ts:579
 
 ##### Returns
 
@@ -73,7 +73,7 @@ Defined in: uniform.ts/src/newer/next/transport/AtomicsTransport.ts:579
 get overflow(): number;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/AtomicsTransport.ts:585
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/AtomicsTransport.ts:585
 
 ##### Returns
 
@@ -87,7 +87,7 @@ Defined in: uniform.ts/src/newer/next/transport/AtomicsTransport.ts:585
 read(): Uint8Array<ArrayBufferLike> | null;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/AtomicsTransport.ts:534
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/AtomicsTransport.ts:534
 
 Read message from ring buffer (non-blocking)
 
@@ -103,7 +103,7 @@ Read message from ring buffer (non-blocking)
 waitRead(timeout?): Promise<Uint8Array<ArrayBufferLike> | null>;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/AtomicsTransport.ts:560
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/AtomicsTransport.ts:560
 
 Wait for data to be available
 
@@ -125,7 +125,7 @@ Wait for data to be available
 write(data): boolean;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/AtomicsTransport.ts:504
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/AtomicsTransport.ts:504
 
 Write message to ring buffer (non-blocking)
 

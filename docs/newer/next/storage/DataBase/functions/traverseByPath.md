@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 function traverseByPath(obj, path): any;
 ```
 
-Defined in: uniform.ts/src/newer/next/storage/DataBase.ts:178
+Defined in: modules/projects/uniform.ts/src/newer/next/storage/DataBase.ts:178
 
 ## Parameters
 

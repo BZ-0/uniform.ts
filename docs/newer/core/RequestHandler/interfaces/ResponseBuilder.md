@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: ResponseBuilder
 
-Defined in: uniform.ts/src/newer/core/RequestHandler.ts:36
+Defined in: modules/projects/uniform.ts/src/newer/core/RequestHandler.ts:36
 
 ## Properties
 
@@ -16,7 +16,7 @@ Defined in: uniform.ts/src/newer/core/RequestHandler.ts:36
 canBeReturn: boolean;
 ```
 
-Defined in: uniform.ts/src/newer/core/RequestHandler.ts:40
+Defined in: modules/projects/uniform.ts/src/newer/core/RequestHandler.ts:40
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: uniform.ts/src/newer/core/RequestHandler.ts:40
 path: string[];
 ```
 
-Defined in: uniform.ts/src/newer/core/RequestHandler.ts:38
+Defined in: modules/projects/uniform.ts/src/newer/core/RequestHandler.ts:38
 
 ***
 
@@ -36,7 +36,7 @@ Defined in: uniform.ts/src/newer/core/RequestHandler.ts:38
 result: any;
 ```
 
-Defined in: uniform.ts/src/newer/core/RequestHandler.ts:37
+Defined in: modules/projects/uniform.ts/src/newer/core/RequestHandler.ts:37
 
 ***
 
@@ -46,4 +46,4 @@ Defined in: uniform.ts/src/newer/core/RequestHandler.ts:37
 toTransfer: any[];
 ```
 
-Defined in: uniform.ts/src/newer/core/RequestHandler.ts:39
+Defined in: modules/projects/uniform.ts/src/newer/core/RequestHandler.ts:39

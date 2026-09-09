@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -10,4 +10,4 @@
 const DefaultReflect: ReflectLike;
 ```
 
-Defined in: uniform.ts/src/newer/next/proxy/Invoker.ts:125
+Defined in: modules/projects/uniform.ts/src/newer/next/proxy/Invoker.ts:125

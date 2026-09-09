@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 function debounce<T>(ms): (src) => Observable<T>;
 ```
 
-Defined in: uniform.ts/src/newer/next/observable/Observable.ts:265
+Defined in: modules/projects/uniform.ts/src/newer/next/observable/Observable.ts:265
 
 ## Type Parameters
 

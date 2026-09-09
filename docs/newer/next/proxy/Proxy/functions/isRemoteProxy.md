@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 function isRemoteProxy(value): value is RemoteProxy<any>;
 ```
 
-Defined in: uniform.ts/src/newer/next/proxy/Proxy.ts:352
+Defined in: modules/projects/uniform.ts/src/newer/next/proxy/Proxy.ts:352
 
 Check if value is a remote proxy
 

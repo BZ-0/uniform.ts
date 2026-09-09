@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -11,10 +11,11 @@ function createWorkerAtomicsTransport(
    channelName, 
    sendBuffer, 
    recvBuffer, 
-   config?): AtomicsTransport;
+   config?
+): AtomicsTransport;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/AtomicsTransport.ts:442
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/AtomicsTransport.ts:442
 
 Create worker-side atomics transport from buffers
 

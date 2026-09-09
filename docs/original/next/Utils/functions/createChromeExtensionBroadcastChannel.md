@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 function createChromeExtensionBroadcastChannel(channelName): WorkerChannel;
 ```
 
-Defined in: uniform.ts/src/original/next/Utils.ts:48
+Defined in: modules/projects/uniform.ts/src/original/next/Utils.ts:48
 
 Create a chrome extension broadcast-like channel
 Acts like BroadcastChannel but uses chrome.runtime messaging

@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 type RemoteProxy<T> = ProxyMethods<T> & object;
 ```
 
-Defined in: uniform.ts/src/newer/next/proxy/Proxy.ts:66
+Defined in: modules/projects/uniform.ts/src/newer/next/proxy/Proxy.ts:66
 
 Remote proxy with metadata access
 

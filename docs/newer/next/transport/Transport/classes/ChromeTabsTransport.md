@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Class: ChromeTabsTransport
 
-Defined in: uniform.ts/src/newer/next/transport/Transport.ts:548
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/Transport.ts:548
 
 ## Extends
 
@@ -20,10 +20,11 @@ Defined in: uniform.ts/src/newer/next/transport/Transport.ts:548
 new ChromeTabsTransport(
    channelName, 
    _tabId?, 
-   options?): ChromeTabsTransport;
+   options?
+): ChromeTabsTransport;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/Transport.ts:551
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/Transport.ts:551
 
 #### Parameters
 
@@ -57,7 +58,7 @@ Defined in: uniform.ts/src/newer/next/transport/Transport.ts:551
 get channelName(): string;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/Transport.ts:137
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/Transport.ts:137
 
 ##### Returns
 
@@ -77,7 +78,7 @@ Defined in: uniform.ts/src/newer/next/transport/Transport.ts:137
 get inbound(): Subscribable<ChannelMessage<any>>;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/Transport.ts:139
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/Transport.ts:139
 
 ##### Returns
 
@@ -97,7 +98,7 @@ Defined in: uniform.ts/src/newer/next/transport/Transport.ts:139
 get isAttached(): boolean;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/Transport.ts:138
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/Transport.ts:138
 
 ##### Returns
 
@@ -117,7 +118,7 @@ Defined in: uniform.ts/src/newer/next/transport/Transport.ts:138
 get onIncomingConnection(): Subscribable<TransportIncomingConnection>;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/Transport.ts:97
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/Transport.ts:97
 
 Observable: Incoming connection requests
 
@@ -139,7 +140,7 @@ Observable: Incoming connection requests
 get outbound(): Subscribable<ChannelMessage<any>>;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/Transport.ts:140
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/Transport.ts:140
 
 ##### Returns
 
@@ -157,7 +158,7 @@ Defined in: uniform.ts/src/newer/next/transport/Transport.ts:140
 attach(): void;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/Transport.ts:555
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/Transport.ts:555
 
 #### Returns
 
@@ -175,7 +176,7 @@ Defined in: uniform.ts/src/newer/next/transport/Transport.ts:555
 detach(): void;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/Transport.ts:571
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/Transport.ts:571
 
 #### Returns
 
@@ -193,7 +194,7 @@ Defined in: uniform.ts/src/newer/next/transport/Transport.ts:571
 send(msg, transfer?): void;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/Transport.ts:86
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/Transport.ts:86
 
 Send message
 
@@ -223,7 +224,7 @@ Send message
 setAcceptCallback(callback): void;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/Transport.ts:113
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/Transport.ts:113
 
 Set callback to auto-accept/reject connections
 
@@ -250,7 +251,7 @@ Set callback to auto-accept/reject connections
 setTabId(tabId): void;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/Transport.ts:572
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/Transport.ts:572
 
 #### Parameters
 
@@ -270,7 +271,7 @@ Defined in: uniform.ts/src/newer/next/transport/Transport.ts:572
 subscribe(observer): Subscription;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/Transport.ts:81
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/Transport.ts:81
 
 Subscribe to incoming messages
 
@@ -297,7 +298,7 @@ Subscribe to incoming messages
 subscribeIncoming(handler): Subscription;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/Transport.ts:104
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/Transport.ts:104
 
 Subscribe to incoming connection requests
 

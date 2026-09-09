@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: ReflectLike
 
-Defined in: uniform.ts/src/newer/next/proxy/Invoker.ts:36
+Defined in: modules/projects/uniform.ts/src/newer/next/proxy/Invoker.ts:36
 
 ReflectLike interface
 
@@ -18,10 +18,11 @@ ReflectLike interface
 optional apply(
    target, 
    thisArg, 
-   args): any;
+   args
+): any;
 ```
 
-Defined in: uniform.ts/src/newer/next/proxy/Invoker.ts:40
+Defined in: modules/projects/uniform.ts/src/newer/next/proxy/Invoker.ts:40
 
 #### Parameters
 
@@ -49,7 +50,7 @@ Defined in: uniform.ts/src/newer/next/proxy/Invoker.ts:40
 optional construct(target, args): any;
 ```
 
-Defined in: uniform.ts/src/newer/next/proxy/Invoker.ts:41
+Defined in: modules/projects/uniform.ts/src/newer/next/proxy/Invoker.ts:41
 
 #### Parameters
 
@@ -73,7 +74,7 @@ Defined in: uniform.ts/src/newer/next/proxy/Invoker.ts:41
 optional deleteProperty(target, prop): boolean;
 ```
 
-Defined in: uniform.ts/src/newer/next/proxy/Invoker.ts:42
+Defined in: modules/projects/uniform.ts/src/newer/next/proxy/Invoker.ts:42
 
 #### Parameters
 
@@ -97,7 +98,7 @@ Defined in: uniform.ts/src/newer/next/proxy/Invoker.ts:42
 optional get(target, prop): any;
 ```
 
-Defined in: uniform.ts/src/newer/next/proxy/Invoker.ts:37
+Defined in: modules/projects/uniform.ts/src/newer/next/proxy/Invoker.ts:37
 
 #### Parameters
 
@@ -121,7 +122,7 @@ Defined in: uniform.ts/src/newer/next/proxy/Invoker.ts:37
 optional getOwnPropertyDescriptor(target, prop): PropertyDescriptor | undefined;
 ```
 
-Defined in: uniform.ts/src/newer/next/proxy/Invoker.ts:44
+Defined in: modules/projects/uniform.ts/src/newer/next/proxy/Invoker.ts:44
 
 #### Parameters
 
@@ -145,7 +146,7 @@ Defined in: uniform.ts/src/newer/next/proxy/Invoker.ts:44
 optional getPrototypeOf(target): object | null;
 ```
 
-Defined in: uniform.ts/src/newer/next/proxy/Invoker.ts:45
+Defined in: modules/projects/uniform.ts/src/newer/next/proxy/Invoker.ts:45
 
 #### Parameters
 
@@ -165,7 +166,7 @@ Defined in: uniform.ts/src/newer/next/proxy/Invoker.ts:45
 optional has(target, prop): boolean;
 ```
 
-Defined in: uniform.ts/src/newer/next/proxy/Invoker.ts:39
+Defined in: modules/projects/uniform.ts/src/newer/next/proxy/Invoker.ts:39
 
 #### Parameters
 
@@ -189,7 +190,7 @@ Defined in: uniform.ts/src/newer/next/proxy/Invoker.ts:39
 optional isExtensible(target): boolean;
 ```
 
-Defined in: uniform.ts/src/newer/next/proxy/Invoker.ts:47
+Defined in: modules/projects/uniform.ts/src/newer/next/proxy/Invoker.ts:47
 
 #### Parameters
 
@@ -209,7 +210,7 @@ Defined in: uniform.ts/src/newer/next/proxy/Invoker.ts:47
 optional ownKeys(target): (string | symbol)[];
 ```
 
-Defined in: uniform.ts/src/newer/next/proxy/Invoker.ts:43
+Defined in: modules/projects/uniform.ts/src/newer/next/proxy/Invoker.ts:43
 
 #### Parameters
 
@@ -229,7 +230,7 @@ Defined in: uniform.ts/src/newer/next/proxy/Invoker.ts:43
 optional preventExtensions(target): boolean;
 ```
 
-Defined in: uniform.ts/src/newer/next/proxy/Invoker.ts:48
+Defined in: modules/projects/uniform.ts/src/newer/next/proxy/Invoker.ts:48
 
 #### Parameters
 
@@ -249,10 +250,11 @@ Defined in: uniform.ts/src/newer/next/proxy/Invoker.ts:48
 optional set(
    target, 
    prop, 
-   value): boolean;
+   value
+): boolean;
 ```
 
-Defined in: uniform.ts/src/newer/next/proxy/Invoker.ts:38
+Defined in: modules/projects/uniform.ts/src/newer/next/proxy/Invoker.ts:38
 
 #### Parameters
 
@@ -280,7 +282,7 @@ Defined in: uniform.ts/src/newer/next/proxy/Invoker.ts:38
 optional setPrototypeOf(target, proto): boolean;
 ```
 
-Defined in: uniform.ts/src/newer/next/proxy/Invoker.ts:46
+Defined in: modules/projects/uniform.ts/src/newer/next/proxy/Invoker.ts:46
 
 #### Parameters
 

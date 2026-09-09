@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 function importInHost<T>(url, hostChannel?): Promise<T>;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/Worker.ts:542
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/Worker.ts:542
 
 Import a module in the host context from the worker
 

@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 function getWorkerResolveBaseUrl(): string;
 ```
 
-Defined in: uniform.ts/src/newer/next/utils/Env.ts:63
+Defined in: modules/projects/uniform.ts/src/newer/next/utils/Env.ts:63
 
 Base URL for `new URL(workerPath, base)` when spawning workers from a string specifier.
 

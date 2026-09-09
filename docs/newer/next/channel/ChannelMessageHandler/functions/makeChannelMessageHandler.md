@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -10,10 +10,11 @@
 function makeChannelMessageHandler(
    transport, 
    channelName, 
-   handler?): (subscriber) => () => void;
+   handler?
+): (subscriber) => () => void;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/ChannelMessageHandler.ts:43
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/ChannelMessageHandler.ts:43
 
 ## Parameters
 

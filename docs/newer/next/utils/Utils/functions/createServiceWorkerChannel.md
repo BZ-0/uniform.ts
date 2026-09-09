@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 function createServiceWorkerChannel(config): Promise<WorkerChannel>;
 ```
 
-Defined in: uniform.ts/src/newer/next/utils/Utils.ts:115
+Defined in: modules/projects/uniform.ts/src/newer/next/utils/Utils.ts:115
 
 Create a service worker channel (for when running in service worker context)
 

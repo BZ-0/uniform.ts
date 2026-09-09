@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 const createMultiChannel: (channelNames, contextOptions) => object = createChannelsInContext;
 ```
 
-Defined in: uniform.ts/src/newer/index.ts:480
+Defined in: modules/projects/uniform.ts/src/newer/index.ts:480
 
 Create multiple channels in a new context
 

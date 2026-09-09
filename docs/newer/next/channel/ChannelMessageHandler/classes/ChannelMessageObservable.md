@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Class: ChannelMessageObservable
 
-Defined in: uniform.ts/src/newer/next/channel/ChannelMessageHandler.ts:94
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/ChannelMessageHandler.ts:94
 
 ## Constructors
 
@@ -16,7 +16,7 @@ Defined in: uniform.ts/src/newer/next/channel/ChannelMessageHandler.ts:94
 new ChannelMessageObservable(_transport, _channelName): ChannelMessageObservable;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/ChannelMessageHandler.ts:101
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/ChannelMessageHandler.ts:101
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: uniform.ts/src/newer/next/channel/ChannelMessageHandler.ts:101
 next(msg, transfer?): void;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/ChannelMessageHandler.ts:116
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/ChannelMessageHandler.ts:116
 
 #### Parameters
 
@@ -64,7 +64,7 @@ Defined in: uniform.ts/src/newer/next/channel/ChannelMessageHandler.ts:116
 request(msg): Promise<any>;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/ChannelMessageHandler.ts:118
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/ChannelMessageHandler.ts:118
 
 #### Parameters
 
@@ -84,7 +84,7 @@ Defined in: uniform.ts/src/newer/next/channel/ChannelMessageHandler.ts:118
 subscribe(observer): object;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/ChannelMessageHandler.ts:105
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/ChannelMessageHandler.ts:105
 
 #### Parameters
 

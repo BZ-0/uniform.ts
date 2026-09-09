@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: PipelineStage
 
-Defined in: uniform.ts/src/newer/messaging/UnifiedMessaging.ts:76
+Defined in: modules/projects/uniform.ts/src/newer/messaging/UnifiedMessaging.ts:76
 
 ## Properties
 
@@ -18,7 +18,7 @@ handler: (message) =>
 | Promise<UnifiedMessage<unknown>>;
 ```
 
-Defined in: uniform.ts/src/newer/messaging/UnifiedMessaging.ts:78
+Defined in: modules/projects/uniform.ts/src/newer/messaging/UnifiedMessaging.ts:78
 
 #### Parameters
 
@@ -39,7 +39,7 @@ Defined in: uniform.ts/src/newer/messaging/UnifiedMessaging.ts:78
 name: string;
 ```
 
-Defined in: uniform.ts/src/newer/messaging/UnifiedMessaging.ts:77
+Defined in: modules/projects/uniform.ts/src/newer/messaging/UnifiedMessaging.ts:77
 
 ***
 
@@ -49,7 +49,7 @@ Defined in: uniform.ts/src/newer/messaging/UnifiedMessaging.ts:77
 optional retries?: number;
 ```
 
-Defined in: uniform.ts/src/newer/messaging/UnifiedMessaging.ts:80
+Defined in: modules/projects/uniform.ts/src/newer/messaging/UnifiedMessaging.ts:80
 
 ***
 
@@ -59,4 +59,4 @@ Defined in: uniform.ts/src/newer/messaging/UnifiedMessaging.ts:80
 optional timeout?: number;
 ```
 
-Defined in: uniform.ts/src/newer/messaging/UnifiedMessaging.ts:79
+Defined in: modules/projects/uniform.ts/src/newer/messaging/UnifiedMessaging.ts:79

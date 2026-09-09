@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: WorkerChannel
 
-Defined in: uniform.ts/src/original/next/Queued.ts:9
+Defined in: modules/projects/uniform.ts/src/original/next/Queued.ts:9
 
 Type definitions for fest/uniform
 Centralized to avoid circular import issues
@@ -19,7 +19,7 @@ Centralized to avoid circular import issues
 close(): void;
 ```
 
-Defined in: uniform.ts/src/original/next/Queued.ts:11
+Defined in: modules/projects/uniform.ts/src/original/next/Queued.ts:11
 
 #### Returns
 
@@ -33,7 +33,7 @@ Defined in: uniform.ts/src/original/next/Queued.ts:11
 request(method, args?): Promise<any>;
 ```
 
-Defined in: uniform.ts/src/original/next/Queued.ts:10
+Defined in: modules/projects/uniform.ts/src/original/next/Queued.ts:10
 
 #### Parameters
 

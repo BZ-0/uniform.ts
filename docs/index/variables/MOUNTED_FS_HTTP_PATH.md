@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../README.md)
 
 ***
 
@@ -10,4 +10,4 @@
 MOUNTED_FS_HTTP_PATH: string = "/ssre/fs";
 ```
 
-Defined in: core.ts/dist/core.js:673
+Defined in: modules/projects/core.ts/dist/core.js:673

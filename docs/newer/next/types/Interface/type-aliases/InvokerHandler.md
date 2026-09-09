@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 type InvokerHandler<T> = (data, respond, subscriber) => void | Promise<void>;
 ```
 
-Defined in: uniform.ts/src/newer/next/types/Interface.ts:270
+Defined in: modules/projects/uniform.ts/src/newer/next/types/Interface.ts:270
 
 Invoker handler
 

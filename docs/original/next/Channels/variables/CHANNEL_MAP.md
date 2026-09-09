@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../README.md)
 
 ***
 
@@ -10,4 +10,4 @@
 const CHANNEL_MAP: Map<string, ChannelHandler | null>;
 ```
 
-Defined in: uniform.ts/src/original/next/Channels.ts:24
+Defined in: modules/projects/uniform.ts/src/original/next/Channels.ts:24

@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Class: ChannelSubscription
 
-Defined in: uniform.ts/src/newer/next/observable/NativeObservable.ts:61
+Defined in: modules/projects/uniform.ts/src/newer/next/observable/NativeObservable.ts:61
 
 Subscription handle
 
@@ -22,7 +22,7 @@ Subscription handle
 new ChannelSubscription(_unsubscribe): ChannelSubscription;
 ```
 
-Defined in: uniform.ts/src/newer/next/observable/NativeObservable.ts:63
+Defined in: modules/projects/uniform.ts/src/newer/next/observable/NativeObservable.ts:63
 
 #### Parameters
 
@@ -44,7 +44,7 @@ Defined in: uniform.ts/src/newer/next/observable/NativeObservable.ts:63
 get closed(): boolean;
 ```
 
-Defined in: uniform.ts/src/newer/next/observable/NativeObservable.ts:64
+Defined in: modules/projects/uniform.ts/src/newer/next/observable/NativeObservable.ts:64
 
 ##### Returns
 
@@ -62,7 +62,7 @@ Defined in: uniform.ts/src/newer/next/observable/NativeObservable.ts:64
 unsubscribe(): void;
 ```
 
-Defined in: uniform.ts/src/newer/next/observable/NativeObservable.ts:65
+Defined in: modules/projects/uniform.ts/src/newer/next/observable/NativeObservable.ts:65
 
 #### Returns
 

@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 type ExposeHandler = (action, path, args) => Promise<any>;
 ```
 
-Defined in: uniform.ts/src/newer/next/proxy/Proxy.ts:78
+Defined in: modules/projects/uniform.ts/src/newer/next/proxy/Proxy.ts:78
 
 Exposer handler for incoming requests
 

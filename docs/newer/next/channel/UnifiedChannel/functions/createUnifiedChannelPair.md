@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -10,10 +10,11 @@
 function createUnifiedChannelPair(
    name1, 
    name2, 
-   options?): object;
+   options?
+): object;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/UnifiedChannel.ts:1100
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/UnifiedChannel.ts:1100
 
 Create a channel pair for bidirectional communication
 

@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: PortInfo
 
-Defined in: uniform.ts/src/newer/next/observable/ChromeObservable.ts:21
+Defined in: modules/projects/uniform.ts/src/newer/next/observable/ChromeObservable.ts:21
 
 ## Properties
 
@@ -16,7 +16,7 @@ Defined in: uniform.ts/src/newer/next/observable/ChromeObservable.ts:21
 optional frameId?: number;
 ```
 
-Defined in: uniform.ts/src/newer/next/observable/ChromeObservable.ts:24
+Defined in: modules/projects/uniform.ts/src/newer/next/observable/ChromeObservable.ts:24
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: uniform.ts/src/newer/next/observable/ChromeObservable.ts:24
 name: string;
 ```
 
-Defined in: uniform.ts/src/newer/next/observable/ChromeObservable.ts:22
+Defined in: modules/projects/uniform.ts/src/newer/next/observable/ChromeObservable.ts:22
 
 ***
 
@@ -36,7 +36,7 @@ Defined in: uniform.ts/src/newer/next/observable/ChromeObservable.ts:22
 optional tabId?: number;
 ```
 
-Defined in: uniform.ts/src/newer/next/observable/ChromeObservable.ts:23
+Defined in: modules/projects/uniform.ts/src/newer/next/observable/ChromeObservable.ts:23
 
 ***
 
@@ -46,4 +46,4 @@ Defined in: uniform.ts/src/newer/next/observable/ChromeObservable.ts:23
 optional url?: string;
 ```
 
-Defined in: uniform.ts/src/newer/next/observable/ChromeObservable.ts:25
+Defined in: modules/projects/uniform.ts/src/newer/next/observable/ChromeObservable.ts:25

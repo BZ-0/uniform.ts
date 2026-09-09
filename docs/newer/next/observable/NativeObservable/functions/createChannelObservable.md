@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -10,12 +10,13 @@
 function createChannelObservable(
    transport, 
    target?, 
-   options?): 
+   options?
+): 
   | Observable<ChannelMessage<any>>
   | ChannelObservable;
 ```
 
-Defined in: uniform.ts/src/newer/next/observable/NativeObservable.ts:90
+Defined in: modules/projects/uniform.ts/src/newer/next/observable/NativeObservable.ts:90
 
 ## Parameters
 

@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -19,6 +19,6 @@ type SWHostMessageType =
   | "push";
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/ServiceWorkerHost.ts:49
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/ServiceWorkerHost.ts:49
 
 Message types for SW host protocol

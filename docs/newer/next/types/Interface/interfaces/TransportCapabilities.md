@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: TransportCapabilities
 
-Defined in: uniform.ts/src/newer/next/types/Interface.ts:252
+Defined in: modules/projects/uniform.ts/src/newer/next/types/Interface.ts:252
 
 Transport capability flags
 
@@ -18,7 +18,7 @@ Transport capability flags
 bidirectional: boolean;
 ```
 
-Defined in: uniform.ts/src/newer/next/types/Interface.ts:255
+Defined in: modules/projects/uniform.ts/src/newer/next/types/Interface.ts:255
 
 ***
 
@@ -28,7 +28,7 @@ Defined in: uniform.ts/src/newer/next/types/Interface.ts:255
 binary: boolean;
 ```
 
-Defined in: uniform.ts/src/newer/next/types/Interface.ts:254
+Defined in: modules/projects/uniform.ts/src/newer/next/types/Interface.ts:254
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: uniform.ts/src/newer/next/types/Interface.ts:254
 broadcast: boolean;
 ```
 
-Defined in: uniform.ts/src/newer/next/types/Interface.ts:256
+Defined in: modules/projects/uniform.ts/src/newer/next/types/Interface.ts:256
 
 ***
 
@@ -48,7 +48,7 @@ Defined in: uniform.ts/src/newer/next/types/Interface.ts:256
 ordered: boolean;
 ```
 
-Defined in: uniform.ts/src/newer/next/types/Interface.ts:258
+Defined in: modules/projects/uniform.ts/src/newer/next/types/Interface.ts:258
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: uniform.ts/src/newer/next/types/Interface.ts:258
 persistent: boolean;
 ```
 
-Defined in: uniform.ts/src/newer/next/types/Interface.ts:257
+Defined in: modules/projects/uniform.ts/src/newer/next/types/Interface.ts:257
 
 ***
 
@@ -68,7 +68,7 @@ Defined in: uniform.ts/src/newer/next/types/Interface.ts:257
 reliable: boolean;
 ```
 
-Defined in: uniform.ts/src/newer/next/types/Interface.ts:259
+Defined in: modules/projects/uniform.ts/src/newer/next/types/Interface.ts:259
 
 ***
 
@@ -78,4 +78,4 @@ Defined in: uniform.ts/src/newer/next/types/Interface.ts:259
 transfer: boolean;
 ```
 
-Defined in: uniform.ts/src/newer/next/types/Interface.ts:253
+Defined in: modules/projects/uniform.ts/src/newer/next/types/Interface.ts:253

@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 function detectTransportType(transport): TransportType;
 ```
 
-Defined in: uniform.ts/src/newer/core/TransportCore.ts:96
+Defined in: modules/projects/uniform.ts/src/newer/core/TransportCore.ts:96
 
 ## Parameters
 

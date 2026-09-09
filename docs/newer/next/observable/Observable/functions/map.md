@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 function map<T, R>(fn): (src) => Observable<R>;
 ```
 
-Defined in: uniform.ts/src/newer/next/observable/Observable.ts:256
+Defined in: modules/projects/uniform.ts/src/newer/next/observable/Observable.ts:256
 
 ## Type Parameters
 

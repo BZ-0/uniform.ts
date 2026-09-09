@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 function createSocketRequestHandler(channelName, handlers): (data) => void;
 ```
 
-Defined in: uniform.ts/src/newer/next/observable/SocketIOObservable.ts:217
+Defined in: modules/projects/uniform.ts/src/newer/next/observable/SocketIOObservable.ts:217
 
 ## Parameters
 

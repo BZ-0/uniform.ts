@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 type AcceptConnectionCallback = (connection) => boolean | Promise<boolean>;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/Transport.ts:48
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/Transport.ts:48
 
 Connection accepted callback
 

@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: QueryConnectionsOptions\<TTransport\>
 
-Defined in: uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:25
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:25
 
 ## Type Parameters
 
@@ -22,7 +22,7 @@ Defined in: uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:25
 optional channel?: string;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:26
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:26
 
 ***
 
@@ -32,7 +32,7 @@ Defined in: uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:26
 optional direction?: ConnectionDirection;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:31
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:31
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:31
 optional includeClosed?: boolean;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:33
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:33
 
 ***
 
@@ -52,7 +52,7 @@ Defined in: uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:33
 optional localChannel?: string;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:27
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:27
 
 ***
 
@@ -62,7 +62,7 @@ Defined in: uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:27
 optional remoteChannel?: string;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:28
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:28
 
 ***
 
@@ -72,7 +72,7 @@ Defined in: uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:28
 optional sender?: string;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:29
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:29
 
 ***
 
@@ -82,7 +82,7 @@ Defined in: uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:29
 optional status?: ConnectionStatus;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:32
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:32
 
 ***
 
@@ -92,4 +92,4 @@ Defined in: uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:32
 optional transportType?: TTransport;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:30
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:30

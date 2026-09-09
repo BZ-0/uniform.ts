@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 function sendMessage(message): Promise<boolean>;
 ```
 
-Defined in: uniform.ts/src/newer/messaging/UnifiedMessaging.ts:776
+Defined in: modules/projects/uniform.ts/src/newer/messaging/UnifiedMessaging.ts:776
 
 Send a message using the default manager
 

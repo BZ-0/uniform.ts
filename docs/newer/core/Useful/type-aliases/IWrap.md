@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 type IWrap<T> = { [pT in keyof T]: MPromise<pT> | IWrap<pT> };
 ```
 
-Defined in: uniform.ts/src/newer/core/Useful.ts:9
+Defined in: modules/projects/uniform.ts/src/newer/core/Useful.ts:9
 
 ## Type Parameters
 

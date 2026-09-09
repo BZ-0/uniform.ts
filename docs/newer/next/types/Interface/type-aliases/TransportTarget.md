@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -25,6 +25,6 @@ type TransportTarget =
   | "self";
 ```
 
-Defined in: uniform.ts/src/newer/next/types/Interface.ts:175
+Defined in: modules/projects/uniform.ts/src/newer/next/types/Interface.ts:175
 
 Transport target (runtime objects or string identifiers)

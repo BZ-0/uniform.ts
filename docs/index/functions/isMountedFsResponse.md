@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 function isMountedFsResponse(e): boolean;
 ```
 
-Defined in: core.ts/dist/core.js:679
+Defined in: modules/projects/core.ts/dist/core.js:679
 
 ## Parameters
 

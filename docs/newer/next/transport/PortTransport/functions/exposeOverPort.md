@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 function exposeOverPort<T>(transport, target): Subscription;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/PortTransport.ts:493
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/PortTransport.ts:493
 
 Expose object methods over PortTransport
 

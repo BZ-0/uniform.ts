@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../README.md)
 
 ***
 
@@ -11,10 +11,11 @@ function importModuleInChannel(
    channel, 
    url, 
    options?, 
-broadcast?): Promise<any>;
+   broadcast?
+): Promise<any>;
 ```
 
-Defined in: uniform.ts/src/newer/index.ts:465
+Defined in: modules/projects/uniform.ts/src/newer/index.ts:465
 
 Import a module in a remote channel
 

@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -10,4 +10,4 @@
 const storedData: Map<any, any>;
 ```
 
-Defined in: uniform.ts/src/newer/next/storage/DataBase.ts:174
+Defined in: modules/projects/uniform.ts/src/newer/next/storage/DataBase.ts:174

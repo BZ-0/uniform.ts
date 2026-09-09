@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -10,6 +10,6 @@
 const PROXY_INTERNALS: typeof PROXY_INTERNALS;
 ```
 
-Defined in: uniform.ts/src/newer/next/proxy/Proxy.ts:92
+Defined in: modules/projects/uniform.ts/src/newer/next/proxy/Proxy.ts:92
 
 Symbol to access proxy internals

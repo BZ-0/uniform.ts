@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: ReflectLike
 
-Defined in: uniform.ts/src/newer/core/RequestHandler.ts:44
+Defined in: modules/projects/uniform.ts/src/newer/core/RequestHandler.ts:44
 
 Reflect-like interface for custom implementations
 
@@ -18,10 +18,11 @@ Reflect-like interface for custom implementations
 optional apply(
    target, 
    thisArg, 
-   args): any;
+   args
+): any;
 ```
 
-Defined in: uniform.ts/src/newer/core/RequestHandler.ts:48
+Defined in: modules/projects/uniform.ts/src/newer/core/RequestHandler.ts:48
 
 #### Parameters
 
@@ -49,7 +50,7 @@ Defined in: uniform.ts/src/newer/core/RequestHandler.ts:48
 optional construct(target, args): any;
 ```
 
-Defined in: uniform.ts/src/newer/core/RequestHandler.ts:49
+Defined in: modules/projects/uniform.ts/src/newer/core/RequestHandler.ts:49
 
 #### Parameters
 
@@ -73,7 +74,7 @@ Defined in: uniform.ts/src/newer/core/RequestHandler.ts:49
 optional deleteProperty(target, prop): boolean;
 ```
 
-Defined in: uniform.ts/src/newer/core/RequestHandler.ts:50
+Defined in: modules/projects/uniform.ts/src/newer/core/RequestHandler.ts:50
 
 #### Parameters
 
@@ -97,7 +98,7 @@ Defined in: uniform.ts/src/newer/core/RequestHandler.ts:50
 optional get(target, prop): any;
 ```
 
-Defined in: uniform.ts/src/newer/core/RequestHandler.ts:45
+Defined in: modules/projects/uniform.ts/src/newer/core/RequestHandler.ts:45
 
 #### Parameters
 
@@ -121,7 +122,7 @@ Defined in: uniform.ts/src/newer/core/RequestHandler.ts:45
 optional getOwnPropertyDescriptor(target, prop): PropertyDescriptor | undefined;
 ```
 
-Defined in: uniform.ts/src/newer/core/RequestHandler.ts:52
+Defined in: modules/projects/uniform.ts/src/newer/core/RequestHandler.ts:52
 
 #### Parameters
 
@@ -145,7 +146,7 @@ Defined in: uniform.ts/src/newer/core/RequestHandler.ts:52
 optional getPrototypeOf(target): object | null;
 ```
 
-Defined in: uniform.ts/src/newer/core/RequestHandler.ts:53
+Defined in: modules/projects/uniform.ts/src/newer/core/RequestHandler.ts:53
 
 #### Parameters
 
@@ -165,7 +166,7 @@ Defined in: uniform.ts/src/newer/core/RequestHandler.ts:53
 optional has(target, prop): boolean;
 ```
 
-Defined in: uniform.ts/src/newer/core/RequestHandler.ts:47
+Defined in: modules/projects/uniform.ts/src/newer/core/RequestHandler.ts:47
 
 #### Parameters
 
@@ -189,7 +190,7 @@ Defined in: uniform.ts/src/newer/core/RequestHandler.ts:47
 optional isExtensible(target): boolean;
 ```
 
-Defined in: uniform.ts/src/newer/core/RequestHandler.ts:55
+Defined in: modules/projects/uniform.ts/src/newer/core/RequestHandler.ts:55
 
 #### Parameters
 
@@ -209,7 +210,7 @@ Defined in: uniform.ts/src/newer/core/RequestHandler.ts:55
 optional ownKeys(target): (string | symbol)[];
 ```
 
-Defined in: uniform.ts/src/newer/core/RequestHandler.ts:51
+Defined in: modules/projects/uniform.ts/src/newer/core/RequestHandler.ts:51
 
 #### Parameters
 
@@ -229,7 +230,7 @@ Defined in: uniform.ts/src/newer/core/RequestHandler.ts:51
 optional preventExtensions(target): boolean;
 ```
 
-Defined in: uniform.ts/src/newer/core/RequestHandler.ts:56
+Defined in: modules/projects/uniform.ts/src/newer/core/RequestHandler.ts:56
 
 #### Parameters
 
@@ -249,10 +250,11 @@ Defined in: uniform.ts/src/newer/core/RequestHandler.ts:56
 optional set(
    target, 
    prop, 
-   value): boolean;
+   value
+): boolean;
 ```
 
-Defined in: uniform.ts/src/newer/core/RequestHandler.ts:46
+Defined in: modules/projects/uniform.ts/src/newer/core/RequestHandler.ts:46
 
 #### Parameters
 
@@ -280,7 +282,7 @@ Defined in: uniform.ts/src/newer/core/RequestHandler.ts:46
 optional setPrototypeOf(target, proto): boolean;
 ```
 
-Defined in: uniform.ts/src/newer/core/RequestHandler.ts:54
+Defined in: modules/projects/uniform.ts/src/newer/core/RequestHandler.ts:54
 
 #### Parameters
 

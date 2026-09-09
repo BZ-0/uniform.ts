@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Class: SharedWorkerClient
 
-Defined in: uniform.ts/src/newer/next/transport/SharedWorkerTransport.ts:43
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/SharedWorkerTransport.ts:43
 
 SharedWorker client - connects to a shared worker from page/tab
 
@@ -18,10 +18,11 @@ SharedWorker client - connects to a shared worker from page/tab
 new SharedWorkerClient(
    _scriptUrl, 
    _channelName, 
-   _options?): SharedWorkerClient;
+   _options?
+): SharedWorkerClient;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/SharedWorkerTransport.ts:53
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/SharedWorkerTransport.ts:53
 
 #### Parameters
 
@@ -51,7 +52,7 @@ Defined in: uniform.ts/src/newer/next/transport/SharedWorkerTransport.ts:53
 get channelName(): string;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/SharedWorkerTransport.ts:204
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/SharedWorkerTransport.ts:204
 
 ##### Returns
 
@@ -67,7 +68,7 @@ Defined in: uniform.ts/src/newer/next/transport/SharedWorkerTransport.ts:204
 get isConnected(): boolean;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/SharedWorkerTransport.ts:202
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/SharedWorkerTransport.ts:202
 
 ##### Returns
 
@@ -83,7 +84,7 @@ Defined in: uniform.ts/src/newer/next/transport/SharedWorkerTransport.ts:202
 get port(): MessagePort | null;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/SharedWorkerTransport.ts:200
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/SharedWorkerTransport.ts:200
 
 ##### Returns
 
@@ -99,7 +100,7 @@ Defined in: uniform.ts/src/newer/next/transport/SharedWorkerTransport.ts:200
 get portId(): string;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/SharedWorkerTransport.ts:201
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/SharedWorkerTransport.ts:201
 
 ##### Returns
 
@@ -115,7 +116,7 @@ Defined in: uniform.ts/src/newer/next/transport/SharedWorkerTransport.ts:201
 get state(): ChannelSubject<"error" | "connected" | "disconnected" | "connecting">;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/SharedWorkerTransport.ts:203
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/SharedWorkerTransport.ts:203
 
 ##### Returns
 
@@ -129,7 +130,7 @@ Defined in: uniform.ts/src/newer/next/transport/SharedWorkerTransport.ts:203
 broadcast(msg, transfer?): void;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/SharedWorkerTransport.ts:115
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/SharedWorkerTransport.ts:115
 
 #### Parameters
 
@@ -153,7 +154,7 @@ Defined in: uniform.ts/src/newer/next/transport/SharedWorkerTransport.ts:115
 close(): void;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/SharedWorkerTransport.ts:194
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/SharedWorkerTransport.ts:194
 
 #### Returns
 
@@ -167,7 +168,7 @@ Defined in: uniform.ts/src/newer/next/transport/SharedWorkerTransport.ts:194
 connect(): void;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/SharedWorkerTransport.ts:61
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/SharedWorkerTransport.ts:61
 
 #### Returns
 
@@ -181,7 +182,7 @@ Defined in: uniform.ts/src/newer/next/transport/SharedWorkerTransport.ts:61
 disconnect(): void;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/SharedWorkerTransport.ts:179
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/SharedWorkerTransport.ts:179
 
 #### Returns
 
@@ -195,7 +196,7 @@ Defined in: uniform.ts/src/newer/next/transport/SharedWorkerTransport.ts:179
 request(msg): Promise<any>;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/SharedWorkerTransport.ts:95
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/SharedWorkerTransport.ts:95
 
 #### Parameters
 
@@ -215,7 +216,7 @@ Defined in: uniform.ts/src/newer/next/transport/SharedWorkerTransport.ts:95
 send(msg, transfer?): void;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/SharedWorkerTransport.ts:89
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/SharedWorkerTransport.ts:89
 
 #### Parameters
 
@@ -239,7 +240,7 @@ Defined in: uniform.ts/src/newer/next/transport/SharedWorkerTransport.ts:89
 subscribe(observer): Subscription;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/SharedWorkerTransport.ts:119
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/SharedWorkerTransport.ts:119
 
 #### Parameters
 

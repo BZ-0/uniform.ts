@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Class: ChannelHandler
 
-Defined in: uniform.ts/src/original/next/Channels.ts:143
+Defined in: modules/projects/uniform.ts/src/original/next/Channels.ts:143
 
 ## Constructors
 
@@ -16,7 +16,7 @@ Defined in: uniform.ts/src/original/next/Channels.ts:143
 new ChannelHandler(channel, options?): ChannelHandler;
 ```
 
-Defined in: uniform.ts/src/original/next/Channels.ts:149
+Defined in: modules/projects/uniform.ts/src/original/next/Channels.ts:149
 
 #### Parameters
 
@@ -40,10 +40,11 @@ Defined in: uniform.ts/src/original/next/Channels.ts:149
 createRemoteChannel(
    channel, 
    options?, 
-   broadcast?): any;
+   broadcast?
+): any;
 ```
 
-Defined in: uniform.ts/src/original/next/Channels.ts:156
+Defined in: modules/projects/uniform.ts/src/original/next/Channels.ts:156
 
 #### Parameters
 
@@ -71,7 +72,7 @@ Defined in: uniform.ts/src/original/next/Channels.ts:156
 getChannel(): string | null;
 ```
 
-Defined in: uniform.ts/src/original/next/Channels.ts:189
+Defined in: modules/projects/uniform.ts/src/original/next/Channels.ts:189
 
 #### Returns
 
@@ -85,10 +86,11 @@ Defined in: uniform.ts/src/original/next/Channels.ts:189
 handleAndResponse(
    request, 
    reqId, 
-   response?): Promise<void> | undefined;
+   response?
+): Promise<void> | undefined;
 ```
 
-Defined in: uniform.ts/src/original/next/Channels.ts:236
+Defined in: modules/projects/uniform.ts/src/original/next/Channels.ts:236
 
 #### Parameters
 
@@ -118,10 +120,11 @@ request(
    action, 
    args, 
    options?, 
-   toChannel?): Promise<any> | null | undefined;
+   toChannel?
+): Promise<any> | null | undefined;
 ```
 
-Defined in: uniform.ts/src/original/next/Channels.ts:193
+Defined in: modules/projects/uniform.ts/src/original/next/Channels.ts:193
 
 #### Parameters
 
@@ -159,7 +162,7 @@ Defined in: uniform.ts/src/original/next/Channels.ts:193
 resolveResponse(reqId, result): Promise<any> | undefined;
 ```
 
-Defined in: uniform.ts/src/original/next/Channels.ts:229
+Defined in: modules/projects/uniform.ts/src/original/next/Channels.ts:229
 
 #### Parameters
 

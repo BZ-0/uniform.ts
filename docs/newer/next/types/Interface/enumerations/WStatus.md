@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Enumeration: WStatus
 
-Defined in: uniform.ts/src/newer/next/types/Interface.ts:11
+Defined in: modules/projects/uniform.ts/src/newer/next/types/Interface.ts:11
 
 Unified Types & Interfaces
 
@@ -20,7 +20,7 @@ All shared types for uniform.ts in one place.
 ERROR: "error";
 ```
 
-Defined in: uniform.ts/src/newer/next/types/Interface.ts:11
+Defined in: modules/projects/uniform.ts/src/newer/next/types/Interface.ts:11
 
 ***
 
@@ -30,4 +30,4 @@ Defined in: uniform.ts/src/newer/next/types/Interface.ts:11
 SUCCESS: "success";
 ```
 
-Defined in: uniform.ts/src/newer/next/types/Interface.ts:11
+Defined in: modules/projects/uniform.ts/src/newer/next/types/Interface.ts:11

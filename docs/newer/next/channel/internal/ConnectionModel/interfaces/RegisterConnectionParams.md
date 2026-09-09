@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: RegisterConnectionParams\<TTransport\>
 
-Defined in: uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:36
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:36
 
 ## Type Parameters
 
@@ -22,7 +22,7 @@ Defined in: uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:36
 direction: ConnectionDirection;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:41
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:41
 
 ***
 
@@ -32,7 +32,7 @@ Defined in: uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:41
 localChannel: string;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:37
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:37
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:37
 optional metadata?: Record<string, any>;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:42
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:42
 
 ***
 
@@ -52,7 +52,7 @@ Defined in: uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:42
 remoteChannel: string;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:38
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:38
 
 ***
 
@@ -62,7 +62,7 @@ Defined in: uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:38
 sender: string;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:39
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:39
 
 ***
 
@@ -72,4 +72,4 @@ Defined in: uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:39
 transportType: TTransport;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:40
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:40

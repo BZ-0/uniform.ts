@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: SWClientInfo
 
-Defined in: uniform.ts/src/newer/next/transport/ServiceWorkerHost.ts:37
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/ServiceWorkerHost.ts:37
 
 Client info tracked by SW host
 
@@ -18,7 +18,7 @@ Client info tracked by SW host
 channels: Set<string>;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/ServiceWorkerHost.ts:45
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/ServiceWorkerHost.ts:45
 
 ***
 
@@ -28,7 +28,7 @@ Defined in: uniform.ts/src/newer/next/transport/ServiceWorkerHost.ts:45
 connectedAt: number;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/ServiceWorkerHost.ts:43
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/ServiceWorkerHost.ts:43
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: uniform.ts/src/newer/next/transport/ServiceWorkerHost.ts:43
 focused: boolean;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/ServiceWorkerHost.ts:42
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/ServiceWorkerHost.ts:42
 
 ***
 
@@ -48,7 +48,7 @@ Defined in: uniform.ts/src/newer/next/transport/ServiceWorkerHost.ts:42
 id: string;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/ServiceWorkerHost.ts:38
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/ServiceWorkerHost.ts:38
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: uniform.ts/src/newer/next/transport/ServiceWorkerHost.ts:38
 lastSeen: number;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/ServiceWorkerHost.ts:44
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/ServiceWorkerHost.ts:44
 
 ***
 
@@ -68,7 +68,7 @@ Defined in: uniform.ts/src/newer/next/transport/ServiceWorkerHost.ts:44
 type: "worker" | "window" | "sharedworker" | "all";
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/ServiceWorkerHost.ts:39
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/ServiceWorkerHost.ts:39
 
 ***
 
@@ -78,7 +78,7 @@ Defined in: uniform.ts/src/newer/next/transport/ServiceWorkerHost.ts:39
 url: string;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/ServiceWorkerHost.ts:40
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/ServiceWorkerHost.ts:40
 
 ***
 
@@ -88,4 +88,4 @@ Defined in: uniform.ts/src/newer/next/transport/ServiceWorkerHost.ts:40
 visibilityState: "visible" | "hidden";
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/ServiceWorkerHost.ts:41
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/ServiceWorkerHost.ts:41

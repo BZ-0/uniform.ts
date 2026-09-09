@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: TransportMeta
 
-Defined in: uniform.ts/src/newer/core/TransportCore.ts:64
+Defined in: modules/projects/uniform.ts/src/newer/core/TransportCore.ts:64
 
 ## Properties
 
@@ -16,7 +16,7 @@ Defined in: uniform.ts/src/newer/core/TransportCore.ts:64
 supports: object;
 ```
 
-Defined in: uniform.ts/src/newer/core/TransportCore.ts:66
+Defined in: modules/projects/uniform.ts/src/newer/core/TransportCore.ts:66
 
 #### bidirectional
 
@@ -56,4 +56,4 @@ transfer: boolean;
 type: TransportType;
 ```
 
-Defined in: uniform.ts/src/newer/core/TransportCore.ts:65
+Defined in: modules/projects/uniform.ts/src/newer/core/TransportCore.ts:65

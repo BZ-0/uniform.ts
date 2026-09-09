@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -10,13 +10,14 @@
 function importModuleInContext(
    channelName, 
    url, 
-   options?): Promise<{
+   options?
+): Promise<{
   context: ChannelContext;
   module: any;
 }>;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/ChannelContext.ts:1315
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/ChannelContext.ts:1315
 
 Quick helper: Import module in a new context's channel
 

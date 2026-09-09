@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: SharedWorkerConfig
 
-Defined in: uniform.ts/src/newer/next/types/Interface.ts:225
+Defined in: modules/projects/uniform.ts/src/newer/next/types/Interface.ts:225
 
 SharedWorker configuration
 
@@ -18,7 +18,7 @@ SharedWorker configuration
 optional autoConnect?: boolean;
 ```
 
-Defined in: uniform.ts/src/newer/next/types/Interface.ts:229
+Defined in: modules/projects/uniform.ts/src/newer/next/types/Interface.ts:229
 
 ***
 
@@ -28,7 +28,7 @@ Defined in: uniform.ts/src/newer/next/types/Interface.ts:229
 optional credentials?: RequestCredentials;
 ```
 
-Defined in: uniform.ts/src/newer/next/types/Interface.ts:227
+Defined in: modules/projects/uniform.ts/src/newer/next/types/Interface.ts:227
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: uniform.ts/src/newer/next/types/Interface.ts:227
 optional name?: string;
 ```
 
-Defined in: uniform.ts/src/newer/next/types/Interface.ts:226
+Defined in: modules/projects/uniform.ts/src/newer/next/types/Interface.ts:226
 
 ***
 
@@ -48,4 +48,4 @@ Defined in: uniform.ts/src/newer/next/types/Interface.ts:226
 optional type?: WorkerType;
 ```
 
-Defined in: uniform.ts/src/newer/next/types/Interface.ts:228
+Defined in: modules/projects/uniform.ts/src/newer/next/types/Interface.ts:228

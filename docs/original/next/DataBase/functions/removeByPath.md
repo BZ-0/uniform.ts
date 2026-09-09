@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 function removeByPath(path): boolean;
 ```
 
-Defined in: uniform.ts/src/original/next/DataBase.ts:219
+Defined in: modules/projects/uniform.ts/src/original/next/DataBase.ts:219
 
 ## Parameters
 

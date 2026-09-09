@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: WorkerChannelConfig
 
-Defined in: uniform.ts/src/newer/messaging/UnifiedMessaging.ts:57
+Defined in: modules/projects/uniform.ts/src/newer/messaging/UnifiedMessaging.ts:57
 
 ## Properties
 
@@ -16,7 +16,7 @@ Defined in: uniform.ts/src/newer/messaging/UnifiedMessaging.ts:57
 name: string;
 ```
 
-Defined in: uniform.ts/src/newer/messaging/UnifiedMessaging.ts:58
+Defined in: modules/projects/uniform.ts/src/newer/messaging/UnifiedMessaging.ts:58
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: uniform.ts/src/newer/messaging/UnifiedMessaging.ts:58
 optional options?: WorkerOptions;
 ```
 
-Defined in: uniform.ts/src/newer/messaging/UnifiedMessaging.ts:60
+Defined in: modules/projects/uniform.ts/src/newer/messaging/UnifiedMessaging.ts:60
 
 ***
 
@@ -36,7 +36,7 @@ Defined in: uniform.ts/src/newer/messaging/UnifiedMessaging.ts:60
 optional protocolOptions?: object;
 ```
 
-Defined in: uniform.ts/src/newer/messaging/UnifiedMessaging.ts:61
+Defined in: modules/projects/uniform.ts/src/newer/messaging/UnifiedMessaging.ts:61
 
 #### batching?
 
@@ -70,4 +70,4 @@ optional timeout?: number;
 script: string | Worker | (() => Worker);
 ```
 
-Defined in: uniform.ts/src/newer/messaging/UnifiedMessaging.ts:59
+Defined in: modules/projects/uniform.ts/src/newer/messaging/UnifiedMessaging.ts:59

@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -10,10 +10,11 @@
 function setupInvoker(
    channel, 
    target, 
-   config?): BidirectionalInvoker;
+   config?
+): BidirectionalInvoker;
 ```
 
-Defined in: uniform.ts/src/newer/next/proxy/Invoker.ts:274
+Defined in: modules/projects/uniform.ts/src/newer/next/proxy/Invoker.ts:274
 
 ## Parameters
 

@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Class: AtomicsTransport
 
-Defined in: uniform.ts/src/newer/next/transport/AtomicsTransport.ts:258
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/AtomicsTransport.ts:258
 
 ## Constructors
 
@@ -17,10 +17,11 @@ new AtomicsTransport(
    _channelName, 
    sendBuffer, 
    recvBuffer, 
-   _config?): AtomicsTransport;
+   _config?
+): AtomicsTransport;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/AtomicsTransport.ts:270
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/AtomicsTransport.ts:270
 
 #### Parameters
 
@@ -54,7 +55,7 @@ Defined in: uniform.ts/src/newer/next/transport/AtomicsTransport.ts:270
 get channelName(): string;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/AtomicsTransport.ts:406
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/AtomicsTransport.ts:406
 
 ##### Returns
 
@@ -70,7 +71,7 @@ Defined in: uniform.ts/src/newer/next/transport/AtomicsTransport.ts:406
 get recvBuffer(): SharedArrayBuffer;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/AtomicsTransport.ts:403
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/AtomicsTransport.ts:403
 
 ##### Returns
 
@@ -86,7 +87,7 @@ Defined in: uniform.ts/src/newer/next/transport/AtomicsTransport.ts:403
 get sendBuffer(): SharedArrayBuffer;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/AtomicsTransport.ts:402
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/AtomicsTransport.ts:402
 
 ##### Returns
 
@@ -102,7 +103,7 @@ Defined in: uniform.ts/src/newer/next/transport/AtomicsTransport.ts:402
 get state(): ChannelSubject<"error" | "ready" | "polling" | "stopped">;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/AtomicsTransport.ts:405
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/AtomicsTransport.ts:405
 
 ##### Returns
 
@@ -118,7 +119,7 @@ Defined in: uniform.ts/src/newer/next/transport/AtomicsTransport.ts:405
 get workerId(): string;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/AtomicsTransport.ts:404
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/AtomicsTransport.ts:404
 
 ##### Returns
 
@@ -132,7 +133,7 @@ Defined in: uniform.ts/src/newer/next/transport/AtomicsTransport.ts:404
 close(): void;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/AtomicsTransport.ts:396
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/AtomicsTransport.ts:396
 
 #### Returns
 
@@ -146,7 +147,7 @@ Defined in: uniform.ts/src/newer/next/transport/AtomicsTransport.ts:396
 request(msg): Promise<any>;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/AtomicsTransport.ts:317
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/AtomicsTransport.ts:317
 
 #### Parameters
 
@@ -166,7 +167,7 @@ Defined in: uniform.ts/src/newer/next/transport/AtomicsTransport.ts:317
 send(msg, transfer?): Promise<void>;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/AtomicsTransport.ts:289
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/AtomicsTransport.ts:289
 
 #### Parameters
 
@@ -190,7 +191,7 @@ Defined in: uniform.ts/src/newer/next/transport/AtomicsTransport.ts:289
 subscribe(observer): Subscription;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/AtomicsTransport.ts:335
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/AtomicsTransport.ts:335
 
 #### Parameters
 

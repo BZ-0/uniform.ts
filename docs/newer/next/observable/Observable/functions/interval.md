@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 function interval(ms): Observable<number>;
 ```
 
-Defined in: uniform.ts/src/newer/next/observable/Observable.ts:284
+Defined in: modules/projects/uniform.ts/src/newer/next/observable/Observable.ts:284
 
 ## Parameters
 

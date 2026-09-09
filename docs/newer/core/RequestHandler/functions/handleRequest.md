@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../README.md)
 
 ***
 
@@ -11,7 +11,8 @@ function handleRequest(
    request, 
    reqId, 
    channelName, 
-   options?): Promise<
+   options?
+): Promise<
   | {
   response: any;
   transfer: any[];
@@ -19,7 +20,7 @@ function handleRequest(
 | null>;
 ```
 
-Defined in: uniform.ts/src/newer/core/RequestHandler.ts:342
+Defined in: modules/projects/uniform.ts/src/newer/core/RequestHandler.ts:342
 
 Handle request and return response (unified handler)
 

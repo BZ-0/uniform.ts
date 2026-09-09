@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 function createTransportSender(transport, options?): SendFn<ChannelMessage<any>>;
 ```
 
-Defined in: uniform.ts/src/newer/core/TransportCore.ts:147
+Defined in: modules/projects/uniform.ts/src/newer/core/TransportCore.ts:147
 
 Create send function for any transport type
 

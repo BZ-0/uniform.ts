@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: PendingRequest
 
-Defined in: uniform.ts/src/newer/next/channel/ChannelMessageHandler.ts:31
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/ChannelMessageHandler.ts:31
 
 ## Properties
 
@@ -16,7 +16,7 @@ Defined in: uniform.ts/src/newer/next/channel/ChannelMessageHandler.ts:31
 reject: (error) => void;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/ChannelMessageHandler.ts:33
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/ChannelMessageHandler.ts:33
 
 #### Parameters
 
@@ -36,7 +36,7 @@ Defined in: uniform.ts/src/newer/next/channel/ChannelMessageHandler.ts:33
 resolve: (value) => void;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/ChannelMessageHandler.ts:32
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/ChannelMessageHandler.ts:32
 
 #### Parameters
 
@@ -56,4 +56,4 @@ Defined in: uniform.ts/src/newer/next/channel/ChannelMessageHandler.ts:32
 timestamp: number;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/ChannelMessageHandler.ts:34
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/ChannelMessageHandler.ts:34

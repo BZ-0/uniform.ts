@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Class: Requestor
 
-Defined in: uniform.ts/src/newer/next/proxy/Invoker.ts:144
+Defined in: modules/projects/uniform.ts/src/newer/next/proxy/Invoker.ts:144
 
 ## Constructors
 
@@ -16,7 +16,7 @@ Defined in: uniform.ts/src/newer/next/proxy/Invoker.ts:144
 new Requestor(config): Requestor;
 ```
 
-Defined in: uniform.ts/src/newer/next/proxy/Invoker.ts:148
+Defined in: modules/projects/uniform.ts/src/newer/next/proxy/Invoker.ts:148
 
 #### Parameters
 
@@ -38,7 +38,7 @@ Defined in: uniform.ts/src/newer/next/proxy/Invoker.ts:148
 get contextType(): ContextType;
 ```
 
-Defined in: uniform.ts/src/newer/next/proxy/Invoker.ts:191
+Defined in: modules/projects/uniform.ts/src/newer/next/proxy/Invoker.ts:191
 
 ##### Returns
 
@@ -54,7 +54,7 @@ Defined in: uniform.ts/src/newer/next/proxy/Invoker.ts:191
 get onResponse(): ChannelSubject<InvocationResponse>;
 ```
 
-Defined in: uniform.ts/src/newer/next/proxy/Invoker.ts:190
+Defined in: modules/projects/uniform.ts/src/newer/next/proxy/Invoker.ts:190
 
 ##### Returns
 
@@ -68,10 +68,11 @@ Defined in: uniform.ts/src/newer/next/proxy/Invoker.ts:190
 call<T>(
    targetChannel, 
    path, 
-args?): Promise<T>;
+   args?
+): Promise<T>;
 ```
 
-Defined in: uniform.ts/src/newer/next/proxy/Invoker.ts:174
+Defined in: modules/projects/uniform.ts/src/newer/next/proxy/Invoker.ts:174
 
 #### Type Parameters
 
@@ -105,7 +106,7 @@ Defined in: uniform.ts/src/newer/next/proxy/Invoker.ts:174
 close(): void;
 ```
 
-Defined in: uniform.ts/src/newer/next/proxy/Invoker.ts:192
+Defined in: modules/projects/uniform.ts/src/newer/next/proxy/Invoker.ts:192
 
 #### Returns
 
@@ -119,7 +120,7 @@ Defined in: uniform.ts/src/newer/next/proxy/Invoker.ts:192
 connect(target, options?): this;
 ```
 
-Defined in: uniform.ts/src/newer/next/proxy/Invoker.ts:157
+Defined in: modules/projects/uniform.ts/src/newer/next/proxy/Invoker.ts:157
 
 #### Parameters
 
@@ -143,10 +144,11 @@ Defined in: uniform.ts/src/newer/next/proxy/Invoker.ts:157
 construct<T>(
    targetChannel, 
    path, 
-args?): Promise<T>;
+   args?
+): Promise<T>;
 ```
 
-Defined in: uniform.ts/src/newer/next/proxy/Invoker.ts:178
+Defined in: modules/projects/uniform.ts/src/newer/next/proxy/Invoker.ts:178
 
 #### Type Parameters
 
@@ -180,7 +182,7 @@ Defined in: uniform.ts/src/newer/next/proxy/Invoker.ts:178
 createProxy<T>(targetChannel, basePath?): T;
 ```
 
-Defined in: uniform.ts/src/newer/next/proxy/Invoker.ts:186
+Defined in: modules/projects/uniform.ts/src/newer/next/proxy/Invoker.ts:186
 
 #### Type Parameters
 
@@ -210,10 +212,11 @@ Defined in: uniform.ts/src/newer/next/proxy/Invoker.ts:186
 get<T>(
    targetChannel, 
    path, 
-prop): Promise<T>;
+   prop
+): Promise<T>;
 ```
 
-Defined in: uniform.ts/src/newer/next/proxy/Invoker.ts:166
+Defined in: modules/projects/uniform.ts/src/newer/next/proxy/Invoker.ts:166
 
 #### Type Parameters
 
@@ -247,7 +250,7 @@ Defined in: uniform.ts/src/newer/next/proxy/Invoker.ts:166
 importModule<T>(targetChannel, url): Promise<T>;
 ```
 
-Defined in: uniform.ts/src/newer/next/proxy/Invoker.ts:182
+Defined in: modules/projects/uniform.ts/src/newer/next/proxy/Invoker.ts:182
 
 #### Type Parameters
 
@@ -278,10 +281,11 @@ invoke<T>(
    targetChannel, 
    action, 
    path, 
-args?): Promise<T>;
+   args?
+): Promise<T>;
 ```
 
-Defined in: uniform.ts/src/newer/next/proxy/Invoker.ts:162
+Defined in: modules/projects/uniform.ts/src/newer/next/proxy/Invoker.ts:162
 
 #### Type Parameters
 
@@ -320,10 +324,11 @@ set(
    targetChannel, 
    path, 
    prop, 
-value): Promise<boolean>;
+   value
+): Promise<boolean>;
 ```
 
-Defined in: uniform.ts/src/newer/next/proxy/Invoker.ts:170
+Defined in: modules/projects/uniform.ts/src/newer/next/proxy/Invoker.ts:170
 
 #### Parameters
 

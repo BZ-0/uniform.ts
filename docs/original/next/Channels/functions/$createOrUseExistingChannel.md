@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../README.md)
 
 ***
 
@@ -10,10 +10,11 @@
 function $createOrUseExistingChannel(
    channel, 
    options?, 
-   broadcast?): any;
+   broadcast?
+): any;
 ```
 
-Defined in: uniform.ts/src/original/next/Channels.ts:97
+Defined in: modules/projects/uniform.ts/src/original/next/Channels.ts:97
 
 ## Parameters
 

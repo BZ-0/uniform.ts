@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Class: ConnectionPool
 
-Defined in: uniform.ts/src/newer/next/channel/Connection.ts:194
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/Connection.ts:194
 
 ## Constructors
 
@@ -30,7 +30,7 @@ new ConnectionPool(): ConnectionPool;
 get names(): string[];
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/Connection.ts:215
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/Connection.ts:215
 
 ##### Returns
 
@@ -46,7 +46,7 @@ Defined in: uniform.ts/src/newer/next/channel/Connection.ts:215
 get size(): number;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/Connection.ts:214
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/Connection.ts:214
 
 ##### Returns
 
@@ -60,7 +60,7 @@ Defined in: uniform.ts/src/newer/next/channel/Connection.ts:214
 clear(): void;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/Connection.ts:213
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/Connection.ts:213
 
 #### Returns
 
@@ -74,7 +74,7 @@ Defined in: uniform.ts/src/newer/next/channel/Connection.ts:213
 delete(name): boolean;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/Connection.ts:212
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/Connection.ts:212
 
 #### Parameters
 
@@ -94,7 +94,7 @@ Defined in: uniform.ts/src/newer/next/channel/Connection.ts:212
 get(name): ChannelConnection | undefined;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/Connection.ts:210
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/Connection.ts:210
 
 #### Parameters
 
@@ -114,10 +114,11 @@ Defined in: uniform.ts/src/newer/next/channel/Connection.ts:210
 getOrCreate(
    name, 
    transportType?, 
-   options?): ChannelConnection;
+   options?
+): ChannelConnection;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/Connection.ts:203
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/Connection.ts:203
 
 #### Parameters
 
@@ -145,7 +146,7 @@ Defined in: uniform.ts/src/newer/next/channel/Connection.ts:203
 has(name): boolean;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/Connection.ts:211
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/Connection.ts:211
 
 #### Parameters
 
@@ -165,7 +166,7 @@ Defined in: uniform.ts/src/newer/next/channel/Connection.ts:211
 static getInstance(): ConnectionPool;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/Connection.ts:198
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/Connection.ts:198
 
 #### Returns
 

@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -10,10 +10,11 @@
 function createTransport(
    channelName, 
    options?, 
-   config?): TransportInstance;
+   config?
+): TransportInstance;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/UnifiedTransport.ts:248
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/UnifiedTransport.ts:248
 
 Create transport instance based on options
 

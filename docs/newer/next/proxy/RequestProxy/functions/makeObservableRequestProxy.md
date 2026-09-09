@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -10,10 +10,11 @@
 function makeObservableRequestProxy(
    descriptor, 
    channelObs, 
-   options?): any;
+   options?
+): any;
 ```
 
-Defined in: uniform.ts/src/newer/next/proxy/RequestProxy.ts:110
+Defined in: modules/projects/uniform.ts/src/newer/next/proxy/RequestProxy.ts:110
 
 ## Parameters
 

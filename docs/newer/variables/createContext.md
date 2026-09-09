@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 const createContext: (options) => ChannelContext = createChannelContext;
 ```
 
-Defined in: uniform.ts/src/newer/index.ts:474
+Defined in: modules/projects/uniform.ts/src/newer/index.ts:474
 
 Create a new isolated channel context
 

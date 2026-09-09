@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -10,13 +10,14 @@
 function createOrUseExistingChannel(
    channel, 
    options?, 
-   broadcast?): 
+   broadcast?
+): 
   | ChannelHandler
   | Promise<RemoteChannelHelper>
   | null;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/Channels.ts:141
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/Channels.ts:141
 
 ## Parameters
 

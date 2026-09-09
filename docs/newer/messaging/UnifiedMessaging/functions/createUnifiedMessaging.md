@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 function createUnifiedMessaging(config?): UnifiedMessagingManager;
 ```
 
-Defined in: uniform.ts/src/newer/messaging/UnifiedMessaging.ts:755
+Defined in: modules/projects/uniform.ts/src/newer/messaging/UnifiedMessaging.ts:755
 
 Create a new UnifiedMessagingManager instance (not cached)
 

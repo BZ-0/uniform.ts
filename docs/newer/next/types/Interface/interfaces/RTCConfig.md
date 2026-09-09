@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: RTCConfig
 
-Defined in: uniform.ts/src/newer/next/types/Interface.ts:217
+Defined in: modules/projects/uniform.ts/src/newer/next/types/Interface.ts:217
 
 WebRTC DataChannel configuration
 
@@ -18,7 +18,7 @@ WebRTC DataChannel configuration
 optional binaryFormat?: "json" | "cbor" | "msgpack";
 ```
 
-Defined in: uniform.ts/src/newer/next/types/Interface.ts:221
+Defined in: modules/projects/uniform.ts/src/newer/next/types/Interface.ts:221
 
 ***
 
@@ -28,7 +28,7 @@ Defined in: uniform.ts/src/newer/next/types/Interface.ts:221
 optional connectionTimeout?: number;
 ```
 
-Defined in: uniform.ts/src/newer/next/types/Interface.ts:220
+Defined in: modules/projects/uniform.ts/src/newer/next/types/Interface.ts:220
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: uniform.ts/src/newer/next/types/Interface.ts:220
 optional dataChannelOptions?: RTCDataChannelInit;
 ```
 
-Defined in: uniform.ts/src/newer/next/types/Interface.ts:219
+Defined in: modules/projects/uniform.ts/src/newer/next/types/Interface.ts:219
 
 ***
 
@@ -48,4 +48,4 @@ Defined in: uniform.ts/src/newer/next/types/Interface.ts:219
 optional iceServers?: RTCIceServer[];
 ```
 
-Defined in: uniform.ts/src/newer/next/types/Interface.ts:218
+Defined in: modules/projects/uniform.ts/src/newer/next/types/Interface.ts:218

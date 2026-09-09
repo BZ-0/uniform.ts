@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: ConnectionOptions
 
-Defined in: uniform.ts/src/newer/next/types/Interface.ts:193
+Defined in: modules/projects/uniform.ts/src/newer/next/types/Interface.ts:193
 
 Connection options
 
@@ -18,7 +18,7 @@ Connection options
 optional autoReconnect?: boolean;
 ```
 
-Defined in: uniform.ts/src/newer/next/types/Interface.ts:195
+Defined in: modules/projects/uniform.ts/src/newer/next/types/Interface.ts:195
 
 ***
 
@@ -28,7 +28,7 @@ Defined in: uniform.ts/src/newer/next/types/Interface.ts:195
 optional bufferMessages?: boolean;
 ```
 
-Defined in: uniform.ts/src/newer/next/types/Interface.ts:198
+Defined in: modules/projects/uniform.ts/src/newer/next/types/Interface.ts:198
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: uniform.ts/src/newer/next/types/Interface.ts:198
 optional bufferSize?: number;
 ```
 
-Defined in: uniform.ts/src/newer/next/types/Interface.ts:199
+Defined in: modules/projects/uniform.ts/src/newer/next/types/Interface.ts:199
 
 ***
 
@@ -48,7 +48,7 @@ Defined in: uniform.ts/src/newer/next/types/Interface.ts:199
 optional maxReconnectAttempts?: number;
 ```
 
-Defined in: uniform.ts/src/newer/next/types/Interface.ts:197
+Defined in: modules/projects/uniform.ts/src/newer/next/types/Interface.ts:197
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: uniform.ts/src/newer/next/types/Interface.ts:197
 optional metadata?: Record<string, any>;
 ```
 
-Defined in: uniform.ts/src/newer/next/types/Interface.ts:200
+Defined in: modules/projects/uniform.ts/src/newer/next/types/Interface.ts:200
 
 ***
 
@@ -68,7 +68,7 @@ Defined in: uniform.ts/src/newer/next/types/Interface.ts:200
 optional reconnectInterval?: number;
 ```
 
-Defined in: uniform.ts/src/newer/next/types/Interface.ts:196
+Defined in: modules/projects/uniform.ts/src/newer/next/types/Interface.ts:196
 
 ***
 
@@ -78,4 +78,4 @@ Defined in: uniform.ts/src/newer/next/types/Interface.ts:196
 optional timeout?: number;
 ```
 
-Defined in: uniform.ts/src/newer/next/types/Interface.ts:194
+Defined in: modules/projects/uniform.ts/src/newer/next/types/Interface.ts:194

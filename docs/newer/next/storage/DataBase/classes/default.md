@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Class: default\<T\>
 
-Defined in: uniform.ts/src/newer/next/storage/DataBase.ts:14
+Defined in: modules/projects/uniform.ts/src/newer/next/storage/DataBase.ts:14
 
 ## Type Parameters
 
@@ -22,7 +22,7 @@ Defined in: uniform.ts/src/newer/next/storage/DataBase.ts:14
 new default<T>(): UUIDMap<T>;
 ```
 
-Defined in: uniform.ts/src/newer/next/storage/DataBase.ts:21
+Defined in: modules/projects/uniform.ts/src/newer/next/storage/DataBase.ts:21
 
 #### Returns
 
@@ -36,10 +36,11 @@ Defined in: uniform.ts/src/newer/next/storage/DataBase.ts:21
 add(
    obj, 
    id?, 
-   force?): string | undefined;
+   force?
+): string | undefined;
 ```
 
-Defined in: uniform.ts/src/newer/next/storage/DataBase.ts:39
+Defined in: modules/projects/uniform.ts/src/newer/next/storage/DataBase.ts:39
 
 #### Parameters
 
@@ -67,7 +68,7 @@ Defined in: uniform.ts/src/newer/next/storage/DataBase.ts:39
 count(obj?): dT | undefined;
 ```
 
-Defined in: uniform.ts/src/newer/next/storage/DataBase.ts:68
+Defined in: modules/projects/uniform.ts/src/newer/next/storage/DataBase.ts:68
 
 #### Parameters
 
@@ -87,7 +88,7 @@ Defined in: uniform.ts/src/newer/next/storage/DataBase.ts:68
 delete<R>(key): unknown;
 ```
 
-Defined in: uniform.ts/src/newer/next/storage/DataBase.ts:31
+Defined in: modules/projects/uniform.ts/src/newer/next/storage/DataBase.ts:31
 
 #### Type Parameters
 
@@ -113,7 +114,7 @@ Defined in: uniform.ts/src/newer/next/storage/DataBase.ts:31
 discount(obj?): dT | undefined;
 ```
 
-Defined in: uniform.ts/src/newer/next/storage/DataBase.ts:57
+Defined in: modules/projects/uniform.ts/src/newer/next/storage/DataBase.ts:57
 
 #### Parameters
 
@@ -133,7 +134,7 @@ Defined in: uniform.ts/src/newer/next/storage/DataBase.ts:57
 get<R>(key): unknown;
 ```
 
-Defined in: uniform.ts/src/newer/next/storage/DataBase.ts:85
+Defined in: modules/projects/uniform.ts/src/newer/next/storage/DataBase.ts:85
 
 #### Type Parameters
 
@@ -159,7 +160,7 @@ Defined in: uniform.ts/src/newer/next/storage/DataBase.ts:85
 has<R>(key): boolean;
 ```
 
-Defined in: uniform.ts/src/newer/next/storage/DataBase.ts:77
+Defined in: modules/projects/uniform.ts/src/newer/next/storage/DataBase.ts:77
 
 #### Type Parameters
 

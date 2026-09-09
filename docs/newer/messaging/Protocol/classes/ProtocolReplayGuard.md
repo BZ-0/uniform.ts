@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Class: ProtocolReplayGuard
 
-Defined in: uniform.ts/src/newer/messaging/Protocol.ts:221
+Defined in: modules/projects/uniform.ts/src/newer/messaging/Protocol.ts:221
 
 ## Constructors
 
@@ -16,7 +16,7 @@ Defined in: uniform.ts/src/newer/messaging/Protocol.ts:221
 new ProtocolReplayGuard(windowMs?): ProtocolReplayGuard;
 ```
 
-Defined in: uniform.ts/src/newer/messaging/Protocol.ts:225
+Defined in: modules/projects/uniform.ts/src/newer/messaging/Protocol.ts:225
 
 #### Parameters
 
@@ -36,7 +36,7 @@ Defined in: uniform.ts/src/newer/messaging/Protocol.ts:225
 accept(envelope): boolean;
 ```
 
-Defined in: uniform.ts/src/newer/messaging/Protocol.ts:229
+Defined in: modules/projects/uniform.ts/src/newer/messaging/Protocol.ts:229
 
 #### Parameters
 

@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Class: SharedWorkerGlobalScope
 
-Defined in: uniform.ts/src/newer/types/worker-globals.d.ts:2
+Defined in: modules/projects/uniform.ts/src/newer/types/worker-globals.d.ts:2
 
 ## Extends
 
@@ -20,7 +20,7 @@ Defined in: uniform.ts/src/newer/types/worker-globals.d.ts:2
 new SharedWorkerGlobalScope(): SharedWorkerGlobalScope;
 ```
 
-Defined in: uniform.ts/node\_modules/typescript/lib/lib.dom.d.ts:14397
+Defined in: node\_modules/typescript/lib/lib.dom.d.ts:14397
 
 #### Returns
 

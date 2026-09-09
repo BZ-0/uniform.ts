@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 function resetServiceChannelManager(): void;
 ```
 
-Defined in: uniform.ts/src/newer/messaging/ServiceChannelManager.ts:347
+Defined in: modules/projects/uniform.ts/src/newer/messaging/ServiceChannelManager.ts:347
 
 Reset the default manager (useful for testing)
 

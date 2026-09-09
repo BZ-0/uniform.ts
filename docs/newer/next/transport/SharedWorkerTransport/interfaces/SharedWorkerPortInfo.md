@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: SharedWorkerPortInfo
 
-Defined in: uniform.ts/src/newer/next/transport/SharedWorkerTransport.ts:29
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/SharedWorkerTransport.ts:29
 
 ## Properties
 
@@ -16,7 +16,7 @@ Defined in: uniform.ts/src/newer/next/transport/SharedWorkerTransport.ts:29
 connectedAt: number;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/SharedWorkerTransport.ts:31
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/SharedWorkerTransport.ts:31
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: uniform.ts/src/newer/next/transport/SharedWorkerTransport.ts:31
 id: string;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/SharedWorkerTransport.ts:30
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/SharedWorkerTransport.ts:30
 
 ***
 
@@ -36,7 +36,7 @@ Defined in: uniform.ts/src/newer/next/transport/SharedWorkerTransport.ts:30
 lastSeen: number;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/SharedWorkerTransport.ts:32
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/SharedWorkerTransport.ts:32
 
 ***
 
@@ -46,4 +46,4 @@ Defined in: uniform.ts/src/newer/next/transport/SharedWorkerTransport.ts:32
 optional metadata?: Record<string, any>;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/SharedWorkerTransport.ts:33
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/SharedWorkerTransport.ts:33

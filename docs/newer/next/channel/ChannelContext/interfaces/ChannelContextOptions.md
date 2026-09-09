@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: ChannelContextOptions
 
-Defined in: uniform.ts/src/newer/next/channel/ChannelContext.ts:92
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/ChannelContext.ts:92
 
 ## Extended by
 
@@ -20,7 +20,7 @@ Defined in: uniform.ts/src/newer/next/channel/ChannelContext.ts:92
 optional autoConnect?: boolean;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/ChannelContext.ts:96
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/ChannelContext.ts:96
 
 Auto-connect channels on creation
 
@@ -32,7 +32,7 @@ Auto-connect channels on creation
 optional defaultOptions?: ConnectionOptions;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/ChannelContext.ts:98
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/ChannelContext.ts:98
 
 Default connection options for channels
 
@@ -44,7 +44,7 @@ Default connection options for channels
 optional isolatedStorage?: boolean;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/ChannelContext.ts:100
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/ChannelContext.ts:100
 
 Enable isolated storage per context
 
@@ -56,7 +56,7 @@ Enable isolated storage per context
 optional name?: string;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/ChannelContext.ts:94
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/ChannelContext.ts:94
 
 Context name for identification
 
@@ -68,6 +68,6 @@ Context name for identification
 optional useGlobalSelf?: boolean;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/ChannelContext.ts:102
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/ChannelContext.ts:102
 
 Use globalThis/self as default broadcast target

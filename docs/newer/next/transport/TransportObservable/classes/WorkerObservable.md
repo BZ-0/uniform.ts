@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Class: WorkerObservable
 
-Defined in: uniform.ts/src/newer/next/transport/TransportObservable.ts:79
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/TransportObservable.ts:79
 
 Worker Observable
 
@@ -22,7 +22,7 @@ Worker Observable
 new WorkerObservable(_worker): WorkerObservable;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/TransportObservable.ts:82
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/TransportObservable.ts:82
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: uniform.ts/src/newer/next/transport/TransportObservable.ts:82
 get isListening(): boolean;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/TransportObservable.ts:71
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/TransportObservable.ts:71
 
 ##### Returns
 
@@ -68,7 +68,7 @@ Defined in: uniform.ts/src/newer/next/transport/TransportObservable.ts:71
 get subscriberCount(): number;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/TransportObservable.ts:70
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/TransportObservable.ts:70
 
 ##### Returns
 
@@ -88,7 +88,7 @@ Defined in: uniform.ts/src/newer/next/transport/TransportObservable.ts:70
 get worker(): Worker;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/TransportObservable.ts:96
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/TransportObservable.ts:96
 
 ##### Returns
 
@@ -102,7 +102,7 @@ Defined in: uniform.ts/src/newer/next/transport/TransportObservable.ts:96
 close(): void;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/TransportObservable.ts:69
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/TransportObservable.ts:69
 
 #### Returns
 
@@ -120,7 +120,7 @@ Defined in: uniform.ts/src/newer/next/transport/TransportObservable.ts:69
 next(value, transfer?): void;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/TransportObservable.ts:87
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/TransportObservable.ts:87
 
 #### Parameters
 
@@ -148,7 +148,7 @@ Defined in: uniform.ts/src/newer/next/transport/TransportObservable.ts:87
 subscribe(observerOrNext): Subscription;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/TransportObservable.ts:28
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/TransportObservable.ts:28
 
 #### Parameters
 
@@ -173,7 +173,7 @@ Defined in: uniform.ts/src/newer/next/transport/TransportObservable.ts:28
 terminate(): void;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/TransportObservable.ts:95
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/TransportObservable.ts:95
 
 #### Returns
 

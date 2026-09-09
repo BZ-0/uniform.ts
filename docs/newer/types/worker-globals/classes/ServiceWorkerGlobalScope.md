@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Class: ServiceWorkerGlobalScope
 
-Defined in: uniform.ts/src/newer/types/worker-globals.d.ts:1
+Defined in: modules/projects/uniform.ts/src/newer/types/worker-globals.d.ts:1
 
 ## Extends
 
@@ -20,7 +20,7 @@ Defined in: uniform.ts/src/newer/types/worker-globals.d.ts:1
 new ServiceWorkerGlobalScope(): ServiceWorkerGlobalScope;
 ```
 
-Defined in: uniform.ts/node\_modules/typescript/lib/lib.dom.d.ts:14397
+Defined in: node\_modules/typescript/lib/lib.dom.d.ts:14397
 
 #### Returns
 

@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../README.md)
 
 ***
 
@@ -14,13 +14,14 @@ function buildResponse(
    sender, 
    path, 
    rawResult, 
-   toTransfer): Promise<{
+   toTransfer
+): Promise<{
   response: any;
   transfer: any[];
 }>;
 ```
 
-Defined in: uniform.ts/src/newer/core/RequestHandler.ts:274
+Defined in: modules/projects/uniform.ts/src/newer/core/RequestHandler.ts:274
 
 Build response object with descriptor
 

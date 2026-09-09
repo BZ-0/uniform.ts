@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Class: RemoteChannelHelper
 
-Defined in: uniform.ts/src/newer/next/channel/ChannelContext.ts:155
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/ChannelContext.ts:155
 
 ## Constructors
 
@@ -16,10 +16,11 @@ Defined in: uniform.ts/src/newer/next/channel/ChannelContext.ts:155
 new RemoteChannelHelper(
    _channel, 
    _context, 
-   _options?): RemoteChannelHelper;
+   _options?
+): RemoteChannelHelper;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/ChannelContext.ts:159
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/ChannelContext.ts:159
 
 #### Parameters
 
@@ -49,7 +50,7 @@ Defined in: uniform.ts/src/newer/next/channel/ChannelContext.ts:159
 get channelName(): string;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/ChannelContext.ts:213
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/ChannelContext.ts:213
 
 ##### Returns
 
@@ -65,7 +66,7 @@ Defined in: uniform.ts/src/newer/next/channel/ChannelContext.ts:213
 get connection(): ChannelConnection;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/ChannelContext.ts:212
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/ChannelContext.ts:212
 
 ##### Returns
 
@@ -81,7 +82,7 @@ Defined in: uniform.ts/src/newer/next/channel/ChannelContext.ts:212
 get context(): ChannelContext;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/ChannelContext.ts:214
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/ChannelContext.ts:214
 
 ##### Returns
 
@@ -95,7 +96,7 @@ Defined in: uniform.ts/src/newer/next/channel/ChannelContext.ts:214
 deferMessage(payload, options?): Promise<string>;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/ChannelContext.ts:199
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/ChannelContext.ts:199
 
 #### Parameters
 
@@ -125,7 +126,7 @@ Defined in: uniform.ts/src/newer/next/channel/ChannelContext.ts:199
 doImportModule(url, options?): Promise<any>;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/ChannelContext.ts:195
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/ChannelContext.ts:195
 
 #### Parameters
 
@@ -149,7 +150,7 @@ Defined in: uniform.ts/src/newer/next/channel/ChannelContext.ts:195
 getPendingMessages(): Promise<any[]>;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/ChannelContext.ts:208
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/ChannelContext.ts:208
 
 #### Returns
 
@@ -164,10 +165,11 @@ request(
    path, 
    action, 
    args, 
-options?): Promise<any>;
+   options?
+): Promise<any>;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/ChannelContext.ts:168
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/ChannelContext.ts:168
 
 #### Parameters
 

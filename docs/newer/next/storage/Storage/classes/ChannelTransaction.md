@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Class: ChannelTransaction
 
-Defined in: uniform.ts/src/newer/next/storage/Storage.ts:918
+Defined in: modules/projects/uniform.ts/src/newer/next/storage/Storage.ts:918
 
 Helper class for batch operations with rollback support
 
@@ -18,7 +18,7 @@ Helper class for batch operations with rollback support
 new ChannelTransaction(_storage): ChannelTransaction;
 ```
 
-Defined in: uniform.ts/src/newer/next/storage/Storage.ts:923
+Defined in: modules/projects/uniform.ts/src/newer/next/storage/Storage.ts:923
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: uniform.ts/src/newer/next/storage/Storage.ts:923
 get operationCount(): number;
 ```
 
-Defined in: uniform.ts/src/newer/next/storage/Storage.ts:997
+Defined in: modules/projects/uniform.ts/src/newer/next/storage/Storage.ts:997
 
 Get operation count
 
@@ -56,7 +56,7 @@ Get operation count
 commit(): Promise<void>;
 ```
 
-Defined in: uniform.ts/src/newer/next/storage/Storage.ts:974
+Defined in: modules/projects/uniform.ts/src/newer/next/storage/Storage.ts:974
 
 Commit transaction
 
@@ -72,7 +72,7 @@ Commit transaction
 delete(store, key): this;
 ```
 
-Defined in: uniform.ts/src/newer/next/storage/Storage.ts:943
+Defined in: modules/projects/uniform.ts/src/newer/next/storage/Storage.ts:943
 
 Add delete operation
 
@@ -98,7 +98,7 @@ Add delete operation
 put<T>(store, value): this;
 ```
 
-Defined in: uniform.ts/src/newer/next/storage/Storage.ts:928
+Defined in: modules/projects/uniform.ts/src/newer/next/storage/Storage.ts:928
 
 Add put operation
 
@@ -130,7 +130,7 @@ Add put operation
 rollback(): void;
 ```
 
-Defined in: uniform.ts/src/newer/next/storage/Storage.ts:989
+Defined in: modules/projects/uniform.ts/src/newer/next/storage/Storage.ts:989
 
 Rollback transaction (just clear operations, don't execute)
 
@@ -146,10 +146,11 @@ Rollback transaction (just clear operations, don't execute)
 update<T>(
    store, 
    key, 
-   updates): this;
+   updates
+): this;
 ```
 
-Defined in: uniform.ts/src/newer/next/storage/Storage.ts:958
+Defined in: modules/projects/uniform.ts/src/newer/next/storage/Storage.ts:958
 
 Add update operation
 

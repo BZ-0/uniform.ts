@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 const TransferableStorageFactory: object;
 ```
 
-Defined in: uniform.ts/src/newer/next/storage/TransferableStorage.ts:651
+Defined in: modules/projects/uniform.ts/src/newer/next/storage/TransferableStorage.ts:651
 
 ## Type Declaration
 

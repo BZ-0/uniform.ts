@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../README.md)
 
 ***
 
@@ -13,7 +13,7 @@ const importIsolatedModule: (channelName, url, options) => Promise<{
 }> = importModuleInContext;
 ```
 
-Defined in: uniform.ts/src/newer/index.ts:483
+Defined in: modules/projects/uniform.ts/src/newer/index.ts:483
 
 Import a module with its own isolated context
 

@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 function createPortProxy<T>(transport, targetPath?): ProxyMethods<T>;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/PortTransport.ts:477
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/PortTransport.ts:477
 
 Create proxy for remote object over PortTransport
 

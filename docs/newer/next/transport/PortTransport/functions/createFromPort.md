@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -10,10 +10,11 @@
 function createFromPort(
    port, 
    channelName, 
-   config?): PortTransport;
+   config?
+): PortTransport;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/PortTransport.ts:221
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/PortTransport.ts:221
 
 Create transport from remote port
 

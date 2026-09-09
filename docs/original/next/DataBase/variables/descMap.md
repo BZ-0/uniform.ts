@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../README.md)
 
 ***
 
@@ -10,4 +10,4 @@
 const descMap: WeakMap<WReflectDescriptor<any>, Function>;
 ```
 
-Defined in: uniform.ts/src/original/next/DataBase.ts:97
+Defined in: modules/projects/uniform.ts/src/original/next/DataBase.ts:97

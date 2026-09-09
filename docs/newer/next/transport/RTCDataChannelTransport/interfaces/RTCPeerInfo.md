@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: RTCPeerInfo
 
-Defined in: uniform.ts/src/newer/next/transport/RTCDataChannelTransport.ts:59
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/RTCDataChannelTransport.ts:59
 
 ## Properties
 
@@ -16,7 +16,7 @@ Defined in: uniform.ts/src/newer/next/transport/RTCDataChannelTransport.ts:59
 optional connectedAt?: number;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/RTCDataChannelTransport.ts:64
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/RTCDataChannelTransport.ts:64
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: uniform.ts/src/newer/next/transport/RTCDataChannelTransport.ts:64
 connectionState: RTCPeerConnectionState;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/RTCDataChannelTransport.ts:61
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/RTCDataChannelTransport.ts:61
 
 ***
 
@@ -36,7 +36,7 @@ Defined in: uniform.ts/src/newer/next/transport/RTCDataChannelTransport.ts:61
 dataChannelState: RTCDataChannelState;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/RTCDataChannelTransport.ts:63
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/RTCDataChannelTransport.ts:63
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: uniform.ts/src/newer/next/transport/RTCDataChannelTransport.ts:63
 iceConnectionState: RTCIceConnectionState;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/RTCDataChannelTransport.ts:62
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/RTCDataChannelTransport.ts:62
 
 ***
 
@@ -56,7 +56,7 @@ Defined in: uniform.ts/src/newer/next/transport/RTCDataChannelTransport.ts:62
 id: string;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/RTCDataChannelTransport.ts:60
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/RTCDataChannelTransport.ts:60
 
 ***
 
@@ -66,4 +66,4 @@ Defined in: uniform.ts/src/newer/next/transport/RTCDataChannelTransport.ts:60
 optional lastSeen?: number;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/RTCDataChannelTransport.ts:65
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/RTCDataChannelTransport.ts:65

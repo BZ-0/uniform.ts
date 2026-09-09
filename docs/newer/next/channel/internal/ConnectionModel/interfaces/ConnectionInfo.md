@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: ConnectionInfo\<TTransport\>
 
-Defined in: uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:4
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:4
 
 ## Type Parameters
 
@@ -22,7 +22,7 @@ Defined in: uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:4
 createdAt: number;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:12
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:12
 
 ***
 
@@ -32,7 +32,7 @@ Defined in: uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:12
 direction: ConnectionDirection;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:10
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:10
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:10
 id: string;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:5
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:5
 
 ***
 
@@ -52,7 +52,7 @@ Defined in: uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:5
 optional lastNotifyAt?: number;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:14
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:14
 
 ***
 
@@ -62,7 +62,7 @@ Defined in: uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:14
 localChannel: string;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:6
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:6
 
 ***
 
@@ -72,7 +72,7 @@ Defined in: uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:6
 optional metadata?: Record<string, any>;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:15
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:15
 
 ***
 
@@ -82,7 +82,7 @@ Defined in: uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:15
 remoteChannel: string;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:7
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:7
 
 ***
 
@@ -92,7 +92,7 @@ Defined in: uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:7
 sender: string;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:8
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:8
 
 ***
 
@@ -102,7 +102,7 @@ Defined in: uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:8
 status: ConnectionStatus;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:11
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:11
 
 ***
 
@@ -112,7 +112,7 @@ Defined in: uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:11
 transportType: TTransport;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:9
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:9
 
 ***
 
@@ -122,4 +122,4 @@ Defined in: uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:9
 updatedAt: number;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:13
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/internal/ConnectionModel.ts:13

@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Class: SocketIOObservable
 
-Defined in: uniform.ts/src/newer/next/observable/SocketIOObservable.ts:40
+Defined in: modules/projects/uniform.ts/src/newer/next/observable/SocketIOObservable.ts:40
 
 ## Constructors
 
@@ -16,10 +16,11 @@ Defined in: uniform.ts/src/newer/next/observable/SocketIOObservable.ts:40
 new SocketIOObservable(
    _socket, 
    _channelName, 
-   _options?): SocketIOObservable;
+   _options?
+): SocketIOObservable;
 ```
 
-Defined in: uniform.ts/src/newer/next/observable/SocketIOObservable.ts:49
+Defined in: modules/projects/uniform.ts/src/newer/next/observable/SocketIOObservable.ts:49
 
 #### Parameters
 
@@ -49,7 +50,7 @@ Defined in: uniform.ts/src/newer/next/observable/SocketIOObservable.ts:49
 get channelName(): string;
 ```
 
-Defined in: uniform.ts/src/newer/next/observable/SocketIOObservable.ts:159
+Defined in: modules/projects/uniform.ts/src/newer/next/observable/SocketIOObservable.ts:159
 
 ##### Returns
 
@@ -65,7 +66,7 @@ Defined in: uniform.ts/src/newer/next/observable/SocketIOObservable.ts:159
 get isConnected(): boolean;
 ```
 
-Defined in: uniform.ts/src/newer/next/observable/SocketIOObservable.ts:160
+Defined in: modules/projects/uniform.ts/src/newer/next/observable/SocketIOObservable.ts:160
 
 ##### Returns
 
@@ -81,7 +82,7 @@ Defined in: uniform.ts/src/newer/next/observable/SocketIOObservable.ts:160
 get socket(): SocketIOLike;
 ```
 
-Defined in: uniform.ts/src/newer/next/observable/SocketIOObservable.ts:158
+Defined in: modules/projects/uniform.ts/src/newer/next/observable/SocketIOObservable.ts:158
 
 ##### Returns
 
@@ -97,7 +98,7 @@ Defined in: uniform.ts/src/newer/next/observable/SocketIOObservable.ts:158
 get state(): ChannelSubject<"error" | "connected" | "disconnected" | "connecting">;
 ```
 
-Defined in: uniform.ts/src/newer/next/observable/SocketIOObservable.ts:161
+Defined in: modules/projects/uniform.ts/src/newer/next/observable/SocketIOObservable.ts:161
 
 ##### Returns
 
@@ -111,7 +112,7 @@ Defined in: uniform.ts/src/newer/next/observable/SocketIOObservable.ts:161
 close(): void;
 ```
 
-Defined in: uniform.ts/src/newer/next/observable/SocketIOObservable.ts:151
+Defined in: modules/projects/uniform.ts/src/newer/next/observable/SocketIOObservable.ts:151
 
 #### Returns
 
@@ -125,7 +126,7 @@ Defined in: uniform.ts/src/newer/next/observable/SocketIOObservable.ts:151
 emit(event, data): void;
 ```
 
-Defined in: uniform.ts/src/newer/next/observable/SocketIOObservable.ts:64
+Defined in: modules/projects/uniform.ts/src/newer/next/observable/SocketIOObservable.ts:64
 
 #### Parameters
 
@@ -149,7 +150,7 @@ Defined in: uniform.ts/src/newer/next/observable/SocketIOObservable.ts:64
 request(msg, event?): Promise<any>;
 ```
 
-Defined in: uniform.ts/src/newer/next/observable/SocketIOObservable.ts:68
+Defined in: modules/projects/uniform.ts/src/newer/next/observable/SocketIOObservable.ts:68
 
 #### Parameters
 
@@ -173,7 +174,7 @@ Defined in: uniform.ts/src/newer/next/observable/SocketIOObservable.ts:68
 send(msg, event?): void;
 ```
 
-Defined in: uniform.ts/src/newer/next/observable/SocketIOObservable.ts:59
+Defined in: modules/projects/uniform.ts/src/newer/next/observable/SocketIOObservable.ts:59
 
 #### Parameters
 
@@ -197,7 +198,7 @@ Defined in: uniform.ts/src/newer/next/observable/SocketIOObservable.ts:59
 subscribe(observer): Subscription;
 ```
 
-Defined in: uniform.ts/src/newer/next/observable/SocketIOObservable.ts:87
+Defined in: modules/projects/uniform.ts/src/newer/next/observable/SocketIOObservable.ts:87
 
 #### Parameters
 

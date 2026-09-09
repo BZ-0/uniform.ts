@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 const ChromeObservableFactory: object;
 ```
 
-Defined in: uniform.ts/src/newer/next/observable/ChromeObservable.ts:267
+Defined in: modules/projects/uniform.ts/src/newer/next/observable/ChromeObservable.ts:267
 
 ## Type Declaration
 

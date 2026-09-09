@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Class: RemoteChannelHelper
 
-Defined in: uniform.ts/src/original/next/Channels.ts:54
+Defined in: modules/projects/uniform.ts/src/original/next/Channels.ts:54
 
 ## Constructors
 
@@ -16,7 +16,7 @@ Defined in: uniform.ts/src/original/next/Channels.ts:54
 new RemoteChannelHelper(channel, options?): RemoteChannelHelper;
 ```
 
-Defined in: uniform.ts/src/original/next/Channels.ts:57
+Defined in: modules/projects/uniform.ts/src/original/next/Channels.ts:57
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: uniform.ts/src/original/next/Channels.ts:57
 doImportModule(url, options): Promise<any> | null | undefined;
 ```
 
-Defined in: uniform.ts/src/original/next/Channels.ts:77
+Defined in: modules/projects/uniform.ts/src/original/next/Channels.ts:77
 
 #### Parameters
 
@@ -65,10 +65,11 @@ request(
    path, 
    action, 
    args, 
-   options?): Promise<any> | null | undefined;
+   options?
+): Promise<any> | null | undefined;
 ```
 
-Defined in: uniform.ts/src/original/next/Channels.ts:61
+Defined in: modules/projects/uniform.ts/src/original/next/Channels.ts:61
 
 #### Parameters
 

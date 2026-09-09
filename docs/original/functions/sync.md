@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../README.md)
 
 ***
 
@@ -10,10 +10,11 @@
 function sync(
    channel, 
    options?, 
-broadcast?): Promise<any>;
+   broadcast?
+): Promise<any>;
 ```
 
-Defined in: uniform.ts/src/original/index.ts:25
+Defined in: modules/projects/uniform.ts/src/original/index.ts:25
 
 Ensure the remote channel is created and ready to accept requests.
 

@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: SocketObservableOptions
 
-Defined in: uniform.ts/src/newer/next/observable/SocketIOObservable.ts:30
+Defined in: modules/projects/uniform.ts/src/newer/next/observable/SocketIOObservable.ts:30
 
 ## Properties
 
@@ -16,7 +16,7 @@ Defined in: uniform.ts/src/newer/next/observable/SocketIOObservable.ts:30
 optional autoConnect?: boolean;
 ```
 
-Defined in: uniform.ts/src/newer/next/observable/SocketIOObservable.ts:33
+Defined in: modules/projects/uniform.ts/src/newer/next/observable/SocketIOObservable.ts:33
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: uniform.ts/src/newer/next/observable/SocketIOObservable.ts:33
 optional defaultEvent?: string;
 ```
 
-Defined in: uniform.ts/src/newer/next/observable/SocketIOObservable.ts:32
+Defined in: modules/projects/uniform.ts/src/newer/next/observable/SocketIOObservable.ts:32
 
 ***
 
@@ -36,4 +36,4 @@ Defined in: uniform.ts/src/newer/next/observable/SocketIOObservable.ts:32
 optional events?: string[];
 ```
 
-Defined in: uniform.ts/src/newer/next/observable/SocketIOObservable.ts:31
+Defined in: modules/projects/uniform.ts/src/newer/next/observable/SocketIOObservable.ts:31

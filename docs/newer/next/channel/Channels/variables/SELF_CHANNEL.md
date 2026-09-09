@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 const SELF_CHANNEL: object;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/Channels.ts:20
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/Channels.ts:20
 
 ## Type Declaration
 

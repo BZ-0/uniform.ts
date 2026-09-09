@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../README.md)
 
 ***
 
@@ -11,10 +11,11 @@ function executeActionAsync(
    action, 
    path, 
    args, 
-options?): Promise<ExecuteResult>;
+   options?
+): Promise<ExecuteResult>;
 ```
 
-Defined in: uniform.ts/src/newer/core/RequestHandler.ts:257
+Defined in: modules/projects/uniform.ts/src/newer/core/RequestHandler.ts:257
 
 Execute action with async result resolution
 

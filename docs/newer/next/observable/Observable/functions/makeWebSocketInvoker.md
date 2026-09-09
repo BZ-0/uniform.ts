@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -10,10 +10,11 @@
 function makeWebSocketInvoker(
    url, 
    protocols?, 
-   handler?): (subscriber) => () => void;
+   handler?
+): (subscriber) => () => void;
 ```
 
-Defined in: uniform.ts/src/newer/next/observable/Observable.ts:314
+Defined in: modules/projects/uniform.ts/src/newer/next/observable/Observable.ts:314
 
 ## Parameters
 

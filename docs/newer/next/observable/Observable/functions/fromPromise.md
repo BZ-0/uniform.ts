@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 function fromPromise<T>(promise): Observable<T>;
 ```
 
-Defined in: uniform.ts/src/newer/next/observable/Observable.ts:278
+Defined in: modules/projects/uniform.ts/src/newer/next/observable/Observable.ts:278
 
 ## Type Parameters
 

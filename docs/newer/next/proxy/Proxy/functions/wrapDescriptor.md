@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -10,10 +10,11 @@
 function wrapDescriptor<T>(
    descriptor, 
    invoker, 
-targetChannel?): T | RemoteProxy<T>;
+   targetChannel?
+): T | RemoteProxy<T>;
 ```
 
-Defined in: uniform.ts/src/newer/next/proxy/Proxy.ts:325
+Defined in: modules/projects/uniform.ts/src/newer/next/proxy/Proxy.ts:325
 
 Create proxy from descriptor
 

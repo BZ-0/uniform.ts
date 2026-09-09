@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../README.md)
 
 ***
 
@@ -10,4 +10,4 @@
 const RemoteChannels: Map<string, any>;
 ```
 
-Defined in: uniform.ts/src/original/next/Channels.ts:12
+Defined in: modules/projects/uniform.ts/src/original/next/Channels.ts:12

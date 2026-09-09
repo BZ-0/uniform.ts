@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 function createChromeExtensionRuntimeChannel(channelName, options?): WorkerChannel;
 ```
 
-Defined in: uniform.ts/src/original/index.ts:63
+Defined in: modules/projects/uniform.ts/src/original/index.ts:63
 
 WorkerChannel adapter using chrome.runtime.sendMessage (CRX messaging).
 

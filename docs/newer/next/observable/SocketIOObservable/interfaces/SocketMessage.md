@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: SocketMessage\<T\>
 
-Defined in: uniform.ts/src/newer/next/observable/SocketIOObservable.ts:24
+Defined in: modules/projects/uniform.ts/src/newer/next/observable/SocketIOObservable.ts:24
 
 Channel message envelope
 
@@ -28,7 +28,7 @@ Channel message envelope
 optional ack?: (response) => void;
 ```
 
-Defined in: uniform.ts/src/newer/next/observable/SocketIOObservable.ts:27
+Defined in: modules/projects/uniform.ts/src/newer/next/observable/SocketIOObservable.ts:27
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: uniform.ts/src/newer/next/observable/SocketIOObservable.ts:27
 channel: string;
 ```
 
-Defined in: uniform.ts/src/newer/next/types/Interface.ts:127
+Defined in: modules/projects/uniform.ts/src/newer/next/types/Interface.ts:127
 
 #### Inherited from
 
@@ -62,7 +62,7 @@ Defined in: uniform.ts/src/newer/next/types/Interface.ts:127
 optional event?: string;
 ```
 
-Defined in: uniform.ts/src/newer/next/observable/SocketIOObservable.ts:25
+Defined in: modules/projects/uniform.ts/src/newer/next/observable/SocketIOObservable.ts:25
 
 ***
 
@@ -72,7 +72,7 @@ Defined in: uniform.ts/src/newer/next/observable/SocketIOObservable.ts:25
 id: string;
 ```
 
-Defined in: uniform.ts/src/newer/next/types/Interface.ts:126
+Defined in: modules/projects/uniform.ts/src/newer/next/types/Interface.ts:126
 
 #### Inherited from
 
@@ -86,7 +86,7 @@ Defined in: uniform.ts/src/newer/next/types/Interface.ts:126
 optional payload?: any;
 ```
 
-Defined in: uniform.ts/src/newer/next/types/Interface.ts:130
+Defined in: modules/projects/uniform.ts/src/newer/next/types/Interface.ts:130
 
 #### Inherited from
 
@@ -100,7 +100,7 @@ Defined in: uniform.ts/src/newer/next/types/Interface.ts:130
 optional reqId?: string;
 ```
 
-Defined in: uniform.ts/src/newer/next/types/Interface.ts:131
+Defined in: modules/projects/uniform.ts/src/newer/next/types/Interface.ts:131
 
 #### Inherited from
 
@@ -114,7 +114,7 @@ Defined in: uniform.ts/src/newer/next/types/Interface.ts:131
 optional room?: string;
 ```
 
-Defined in: uniform.ts/src/newer/next/observable/SocketIOObservable.ts:26
+Defined in: modules/projects/uniform.ts/src/newer/next/observable/SocketIOObservable.ts:26
 
 ***
 
@@ -124,7 +124,7 @@ Defined in: uniform.ts/src/newer/next/observable/SocketIOObservable.ts:26
 sender: string;
 ```
 
-Defined in: uniform.ts/src/newer/next/types/Interface.ts:128
+Defined in: modules/projects/uniform.ts/src/newer/next/types/Interface.ts:128
 
 #### Inherited from
 
@@ -138,7 +138,7 @@ Defined in: uniform.ts/src/newer/next/types/Interface.ts:128
 optional timestamp?: number;
 ```
 
-Defined in: uniform.ts/src/newer/next/types/Interface.ts:132
+Defined in: modules/projects/uniform.ts/src/newer/next/types/Interface.ts:132
 
 #### Inherited from
 
@@ -152,7 +152,7 @@ Defined in: uniform.ts/src/newer/next/types/Interface.ts:132
 optional transferable?: Transferable[];
 ```
 
-Defined in: uniform.ts/src/newer/next/types/Interface.ts:133
+Defined in: modules/projects/uniform.ts/src/newer/next/types/Interface.ts:133
 
 #### Inherited from
 
@@ -166,7 +166,7 @@ Defined in: uniform.ts/src/newer/next/types/Interface.ts:133
 type: "request" | "response" | "event" | "signal" | "exchange";
 ```
 
-Defined in: uniform.ts/src/newer/next/types/Interface.ts:129
+Defined in: modules/projects/uniform.ts/src/newer/next/types/Interface.ts:129
 
 #### Inherited from
 

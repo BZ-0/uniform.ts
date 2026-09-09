@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 function createChromeListener(onMessage, options?): () => void;
 ```
 
-Defined in: uniform.ts/src/newer/core/TransportCore.ts:435
+Defined in: modules/projects/uniform.ts/src/newer/core/TransportCore.ts:435
 
 ## Parameters
 

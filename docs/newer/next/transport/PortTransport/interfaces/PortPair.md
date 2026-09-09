@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: PortPair
 
-Defined in: uniform.ts/src/newer/next/transport/PortTransport.ts:34
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/PortTransport.ts:34
 
 ## Properties
 
@@ -16,7 +16,7 @@ Defined in: uniform.ts/src/newer/next/transport/PortTransport.ts:34
 local: MessagePort;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/PortTransport.ts:35
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/PortTransport.ts:35
 
 ***
 
@@ -26,4 +26,4 @@ Defined in: uniform.ts/src/newer/next/transport/PortTransport.ts:35
 remote: MessagePort;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/PortTransport.ts:36
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/PortTransport.ts:36

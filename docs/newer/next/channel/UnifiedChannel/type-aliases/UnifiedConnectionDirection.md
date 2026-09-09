@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -10,4 +10,4 @@
 type UnifiedConnectionDirection = ConnectionDirection;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/UnifiedChannel.ts:100
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/UnifiedChannel.ts:100

@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: ChannelState
 
-Defined in: uniform.ts/src/newer/messaging/ServiceChannelManager.ts:38
+Defined in: modules/projects/uniform.ts/src/newer/messaging/ServiceChannelManager.ts:38
 
 Channel state
 
@@ -18,7 +18,7 @@ Channel state
 connected: boolean;
 ```
 
-Defined in: uniform.ts/src/newer/messaging/ServiceChannelManager.ts:39
+Defined in: modules/projects/uniform.ts/src/newer/messaging/ServiceChannelManager.ts:39
 
 ***
 
@@ -28,7 +28,7 @@ Defined in: uniform.ts/src/newer/messaging/ServiceChannelManager.ts:39
 lastActivity: number;
 ```
 
-Defined in: uniform.ts/src/newer/messaging/ServiceChannelManager.ts:40
+Defined in: modules/projects/uniform.ts/src/newer/messaging/ServiceChannelManager.ts:40
 
 ***
 
@@ -38,4 +38,4 @@ Defined in: uniform.ts/src/newer/messaging/ServiceChannelManager.ts:40
 pendingMessages: number;
 ```
 
-Defined in: uniform.ts/src/newer/messaging/ServiceChannelManager.ts:41
+Defined in: modules/projects/uniform.ts/src/newer/messaging/ServiceChannelManager.ts:41

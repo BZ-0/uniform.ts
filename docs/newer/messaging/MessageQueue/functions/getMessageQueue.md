@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 function getMessageQueue(options?): MessageQueue;
 ```
 
-Defined in: uniform.ts/src/newer/messaging/MessageQueue.ts:426
+Defined in: modules/projects/uniform.ts/src/newer/messaging/MessageQueue.ts:426
 
 Get or create a MessageQueue instance
 

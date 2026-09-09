@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # ~~Class: ChannelHandler~~
 
-Defined in: uniform.ts/src/newer/next/channel/Channels.ts:83
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/Channels.ts:83
 
 ## Deprecated
 
@@ -20,7 +20,7 @@ Use UnifiedChannel instead
 new ChannelHandler(channel, options?): ChannelHandler;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/Channels.ts:87
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/Channels.ts:87
 
 #### Parameters
 
@@ -44,7 +44,7 @@ Defined in: uniform.ts/src/newer/next/channel/Channels.ts:87
 close(): void;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/Channels.ts:120
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/Channels.ts:120
 
 #### Returns
 
@@ -58,10 +58,11 @@ Defined in: uniform.ts/src/newer/next/channel/Channels.ts:120
 createRemoteChannel(
    channel, 
    options?, 
-broadcast?): Promise<RemoteChannelHelper>;
+   broadcast?
+): Promise<RemoteChannelHelper>;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/Channels.ts:93
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/Channels.ts:93
 
 #### Parameters
 
@@ -89,7 +90,7 @@ Defined in: uniform.ts/src/newer/next/channel/Channels.ts:93
 getChannel(): string;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/Channels.ts:101
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/Channels.ts:101
 
 #### Returns
 
@@ -103,10 +104,11 @@ Defined in: uniform.ts/src/newer/next/channel/Channels.ts:101
 handleAndResponse(
    request, 
    reqId, 
-responseFn?): Promise<void>;
+   responseFn?
+): Promise<void>;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/Channels.ts:114
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/Channels.ts:114
 
 #### Parameters
 
@@ -136,10 +138,11 @@ request(
    action, 
    args, 
    options?, 
-   toChannel?): Promise<any> | null;
+   toChannel?
+): Promise<any> | null;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/Channels.ts:103
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/Channels.ts:103
 
 #### Parameters
 
@@ -177,7 +180,7 @@ Defined in: uniform.ts/src/newer/next/channel/Channels.ts:103
 resolveResponse(reqId, result): Promise<any>;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/Channels.ts:112
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/Channels.ts:112
 
 #### Parameters
 

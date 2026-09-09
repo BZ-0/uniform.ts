@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Class: AtomicsBuffer
 
-Defined in: uniform.ts/src/newer/next/transport/AtomicsTransport.ts:127
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/AtomicsTransport.ts:127
 
 ## Constructors
 
@@ -16,7 +16,7 @@ Defined in: uniform.ts/src/newer/next/transport/AtomicsTransport.ts:127
 new AtomicsBuffer(bufferOrSize?, _config?): AtomicsBuffer;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/AtomicsTransport.ts:133
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/AtomicsTransport.ts:133
 
 #### Parameters
 
@@ -42,7 +42,7 @@ Defined in: uniform.ts/src/newer/next/transport/AtomicsTransport.ts:133
 get buffer(): SharedArrayBuffer;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/AtomicsTransport.ts:250
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/AtomicsTransport.ts:250
 
 ##### Returns
 
@@ -58,7 +58,7 @@ Defined in: uniform.ts/src/newer/next/transport/AtomicsTransport.ts:250
 get currentSeq(): number;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/AtomicsTransport.ts:251
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/AtomicsTransport.ts:251
 
 ##### Returns
 
@@ -78,7 +78,7 @@ read(): Promise<
 | null>;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/AtomicsTransport.ts:195
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/AtomicsTransport.ts:195
 
 Read message from shared buffer
 
@@ -100,7 +100,7 @@ Read message from shared buffer
 waitAck(expectedSeq): Promise<boolean>;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/AtomicsTransport.ts:231
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/AtomicsTransport.ts:231
 
 Wait for acknowledgment
 
@@ -122,7 +122,7 @@ Wait for acknowledgment
 write(data, flags?): Promise<boolean>;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/AtomicsTransport.ts:151
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/AtomicsTransport.ts:151
 
 Write message to shared buffer with lock
 

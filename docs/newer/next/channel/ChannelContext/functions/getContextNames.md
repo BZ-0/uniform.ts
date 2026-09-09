@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 function getContextNames(): string[];
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/ChannelContext.ts:1290
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/ChannelContext.ts:1290
 
 Get all registered context names
 

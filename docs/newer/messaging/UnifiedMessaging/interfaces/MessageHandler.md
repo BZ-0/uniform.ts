@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: MessageHandler\<T\>
 
-Defined in: uniform.ts/src/newer/messaging/UnifiedMessaging.ts:52
+Defined in: modules/projects/uniform.ts/src/newer/messaging/UnifiedMessaging.ts:52
 
 ## Type Parameters
 
@@ -22,7 +22,7 @@ Defined in: uniform.ts/src/newer/messaging/UnifiedMessaging.ts:52
 canHandle: (message) => boolean;
 ```
 
-Defined in: uniform.ts/src/newer/messaging/UnifiedMessaging.ts:53
+Defined in: modules/projects/uniform.ts/src/newer/messaging/UnifiedMessaging.ts:53
 
 #### Parameters
 
@@ -42,7 +42,7 @@ Defined in: uniform.ts/src/newer/messaging/UnifiedMessaging.ts:53
 handle: (message) => void | Promise<void>;
 ```
 
-Defined in: uniform.ts/src/newer/messaging/UnifiedMessaging.ts:54
+Defined in: modules/projects/uniform.ts/src/newer/messaging/UnifiedMessaging.ts:54
 
 #### Parameters
 

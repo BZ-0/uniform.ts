@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: ChannelSender\<T\>
 
-Defined in: uniform.ts/src/newer/next/proxy/RequestProxy.ts:55
+Defined in: modules/projects/uniform.ts/src/newer/next/proxy/RequestProxy.ts:55
 
 ## Type Parameters
 
@@ -22,7 +22,7 @@ Defined in: uniform.ts/src/newer/next/proxy/RequestProxy.ts:55
 next(message, transfer?): void;
 ```
 
-Defined in: uniform.ts/src/newer/next/proxy/RequestProxy.ts:56
+Defined in: modules/projects/uniform.ts/src/newer/next/proxy/RequestProxy.ts:56
 
 #### Parameters
 
@@ -46,7 +46,7 @@ Defined in: uniform.ts/src/newer/next/proxy/RequestProxy.ts:56
 optional request(message): Promise<any>;
 ```
 
-Defined in: uniform.ts/src/newer/next/proxy/RequestProxy.ts:57
+Defined in: modules/projects/uniform.ts/src/newer/next/proxy/RequestProxy.ts:57
 
 #### Parameters
 

@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Class: ChannelObservable
 
-Defined in: uniform.ts/src/newer/next/observable/Observable.ts:144
+Defined in: modules/projects/uniform.ts/src/newer/next/observable/Observable.ts:144
 
 Channel Observable with bidirectional communication
 
@@ -22,7 +22,7 @@ Channel Observable with bidirectional communication
 new ChannelObservable(_transport, _channelName): ChannelObservable;
 ```
 
-Defined in: uniform.ts/src/newer/next/observable/Observable.ts:151
+Defined in: modules/projects/uniform.ts/src/newer/next/observable/Observable.ts:151
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: uniform.ts/src/newer/next/observable/Observable.ts:151
 get channelName(): string;
 ```
 
-Defined in: uniform.ts/src/newer/next/observable/Observable.ts:199
+Defined in: modules/projects/uniform.ts/src/newer/next/observable/Observable.ts:199
 
 ##### Returns
 
@@ -64,7 +64,7 @@ Defined in: uniform.ts/src/newer/next/observable/Observable.ts:199
 get isListening(): boolean;
 ```
 
-Defined in: uniform.ts/src/newer/next/observable/Observable.ts:200
+Defined in: modules/projects/uniform.ts/src/newer/next/observable/Observable.ts:200
 
 ##### Returns
 
@@ -78,7 +78,7 @@ Defined in: uniform.ts/src/newer/next/observable/Observable.ts:200
 close(): void;
 ```
 
-Defined in: uniform.ts/src/newer/next/observable/Observable.ts:198
+Defined in: modules/projects/uniform.ts/src/newer/next/observable/Observable.ts:198
 
 #### Returns
 
@@ -92,7 +92,7 @@ Defined in: uniform.ts/src/newer/next/observable/Observable.ts:198
 next(msg, transfer?): void;
 ```
 
-Defined in: uniform.ts/src/newer/next/observable/Observable.ts:155
+Defined in: modules/projects/uniform.ts/src/newer/next/observable/Observable.ts:155
 
 #### Parameters
 
@@ -116,7 +116,7 @@ Defined in: uniform.ts/src/newer/next/observable/Observable.ts:155
 request(msg): Promise<any>;
 ```
 
-Defined in: uniform.ts/src/newer/next/observable/Observable.ts:167
+Defined in: modules/projects/uniform.ts/src/newer/next/observable/Observable.ts:167
 
 #### Parameters
 
@@ -136,7 +136,7 @@ Defined in: uniform.ts/src/newer/next/observable/Observable.ts:167
 subscribe(observer): Subscription;
 ```
 
-Defined in: uniform.ts/src/newer/next/observable/Observable.ts:157
+Defined in: modules/projects/uniform.ts/src/newer/next/observable/Observable.ts:157
 
 #### Parameters
 

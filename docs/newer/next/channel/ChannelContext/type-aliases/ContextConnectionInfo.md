@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -13,7 +13,7 @@ type ContextConnectionInfo = ConnectionInfo<
   | "internal"> & object;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/ChannelContext.ts:137
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/ChannelContext.ts:137
 
 ## Type Declaration
 

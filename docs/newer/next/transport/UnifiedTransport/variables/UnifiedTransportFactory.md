@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 const UnifiedTransportFactory: object;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/UnifiedTransport.ts:578
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/UnifiedTransport.ts:578
 
 ## Type Declaration
 

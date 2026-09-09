@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: WResp\<T\>
 
-Defined in: uniform.ts/src/original/next/Interface.ts:78
+Defined in: modules/projects/uniform.ts/src/original/next/Interface.ts:78
 
 ## Type Parameters
 
@@ -22,7 +22,7 @@ Defined in: uniform.ts/src/original/next/Interface.ts:78
 optional descriptor?: WReflectDescriptor<any> | null;
 ```
 
-Defined in: uniform.ts/src/original/next/Interface.ts:83
+Defined in: modules/projects/uniform.ts/src/original/next/Interface.ts:83
 
 ***
 
@@ -32,7 +32,7 @@ Defined in: uniform.ts/src/original/next/Interface.ts:83
 message: string;
 ```
 
-Defined in: uniform.ts/src/original/next/Interface.ts:81
+Defined in: modules/projects/uniform.ts/src/original/next/Interface.ts:81
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: uniform.ts/src/original/next/Interface.ts:81
 reason: WError<T> | WSuccess<T>;
 ```
 
-Defined in: uniform.ts/src/original/next/Interface.ts:80
+Defined in: modules/projects/uniform.ts/src/original/next/Interface.ts:80
 
 ***
 
@@ -52,7 +52,7 @@ Defined in: uniform.ts/src/original/next/Interface.ts:80
 optional received?: T | null;
 ```
 
-Defined in: uniform.ts/src/original/next/Interface.ts:82
+Defined in: modules/projects/uniform.ts/src/original/next/Interface.ts:82
 
 ***
 
@@ -62,7 +62,7 @@ Defined in: uniform.ts/src/original/next/Interface.ts:82
 status: number;
 ```
 
-Defined in: uniform.ts/src/original/next/Interface.ts:79
+Defined in: modules/projects/uniform.ts/src/original/next/Interface.ts:79
 
 ***
 
@@ -72,4 +72,4 @@ Defined in: uniform.ts/src/original/next/Interface.ts:79
 optional type?: WType | null;
 ```
 
-Defined in: uniform.ts/src/original/next/Interface.ts:84
+Defined in: modules/projects/uniform.ts/src/original/next/Interface.ts:84

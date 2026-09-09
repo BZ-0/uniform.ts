@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Class: ServiceWorkerClient
 
-Defined in: uniform.ts/src/newer/next/transport/ServiceWorkerHost.ts:563
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/ServiceWorkerHost.ts:563
 
 ServiceWorkerClient - Connects a page/component TO the SW host.
 
@@ -20,7 +20,7 @@ This is what runs in the main thread to connect to the SW host.
 new ServiceWorkerClient(_channelName): ServiceWorkerClient;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/ServiceWorkerHost.ts:571
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/ServiceWorkerHost.ts:571
 
 #### Parameters
 
@@ -42,7 +42,7 @@ Defined in: uniform.ts/src/newer/next/transport/ServiceWorkerHost.ts:571
 get isConnected(): boolean;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/ServiceWorkerHost.ts:729
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/ServiceWorkerHost.ts:729
 
 Check if connected
 
@@ -58,7 +58,7 @@ Check if connected
 connect(): Promise<void>;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/ServiceWorkerHost.ts:576
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/ServiceWorkerHost.ts:576
 
 Connect to SW host
 
@@ -74,7 +74,7 @@ Connect to SW host
 disconnect(): void;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/ServiceWorkerHost.ts:628
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/ServiceWorkerHost.ts:628
 
 Disconnect from SW host
 
@@ -90,10 +90,11 @@ Disconnect from SW host
 emit(
    eventType, 
    data, 
-   targetChannel?): void;
+   targetChannel?
+): void;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/ServiceWorkerHost.ts:699
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/ServiceWorkerHost.ts:699
 
 Send event to SW host
 
@@ -123,7 +124,7 @@ Send event to SW host
 on(eventType, handler): Subscription;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/ServiceWorkerHost.ts:720
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/ServiceWorkerHost.ts:720
 
 Subscribe to specific event type
 
@@ -149,7 +150,7 @@ Subscribe to specific event type
 request<T>(action, payload?): Promise<T>;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/ServiceWorkerHost.ts:668
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/ServiceWorkerHost.ts:668
 
 Send request to SW host
 
@@ -181,7 +182,7 @@ Send request to SW host
 subscribe(handler): Subscription;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/ServiceWorkerHost.ts:713
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/ServiceWorkerHost.ts:713
 
 Subscribe to messages from SW host
 
@@ -203,7 +204,7 @@ Subscribe to messages from SW host
 subscribeToChannel(channel): void;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/ServiceWorkerHost.ts:646
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/ServiceWorkerHost.ts:646
 
 Subscribe to a channel
 
@@ -225,7 +226,7 @@ Subscribe to a channel
 unsubscribeFromChannel(channel): void;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/ServiceWorkerHost.ts:657
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/ServiceWorkerHost.ts:657
 
 Unsubscribe from a channel
 

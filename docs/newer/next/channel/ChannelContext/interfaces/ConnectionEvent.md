@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: ConnectionEvent
 
-Defined in: uniform.ts/src/newer/next/channel/ChannelContext.ts:139
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/ChannelContext.ts:139
 
 ## Extends
 
@@ -23,7 +23,7 @@ Defined in: uniform.ts/src/newer/next/channel/ChannelContext.ts:139
 connection: ContextConnectionInfo;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/ChannelContext.ts:141
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/ChannelContext.ts:141
 
 ***
 
@@ -33,7 +33,7 @@ Defined in: uniform.ts/src/newer/next/channel/ChannelContext.ts:141
 optional payload?: any;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/ChannelContext.ts:143
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/ChannelContext.ts:143
 
 #### Overrides
 
@@ -49,7 +49,7 @@ Omit.payload
 timestamp: number;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/ChannelContext.ts:142
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/ChannelContext.ts:142
 
 #### Overrides
 
@@ -65,7 +65,7 @@ Omit.timestamp
 type: "connected" | "notified" | "disconnected";
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/ChannelContext.ts:140
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/ChannelContext.ts:140
 
 #### Overrides
 

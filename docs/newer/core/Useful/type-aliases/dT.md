@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../README.md)
 
 ***
 
@@ -10,4 +10,4 @@
 type dT = object | Function;
 ```
 
-Defined in: uniform.ts/src/newer/core/Useful.ts:6
+Defined in: modules/projects/uniform.ts/src/newer/core/Useful.ts:6

@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Class: OptimizedWorkerChannel
 
-Defined in: uniform.ts/src/newer/next/storage/Queued.ts:246
+Defined in: modules/projects/uniform.ts/src/newer/next/storage/Queued.ts:246
 
 ## Constructors
 
@@ -16,10 +16,11 @@ Defined in: uniform.ts/src/newer/next/storage/Queued.ts:246
 new OptimizedWorkerChannel(
    channel?, 
    options?, 
-   onChannelReady?): OptimizedWorkerChannel;
+   onChannelReady?
+): OptimizedWorkerChannel;
 ```
 
-Defined in: uniform.ts/src/newer/next/storage/Queued.ts:260
+Defined in: modules/projects/uniform.ts/src/newer/next/storage/Queued.ts:260
 
 #### Parameters
 
@@ -47,7 +48,7 @@ Defined in: uniform.ts/src/newer/next/storage/Queued.ts:260
 close(): void;
 ```
 
-Defined in: uniform.ts/src/newer/next/storage/Queued.ts:438
+Defined in: modules/projects/uniform.ts/src/newer/next/storage/Queued.ts:438
 
 Close the channel
 
@@ -63,7 +64,7 @@ Close the channel
 notify(type, payload): void;
 ```
 
-Defined in: uniform.ts/src/newer/next/storage/Queued.ts:354
+Defined in: modules/projects/uniform.ts/src/newer/next/storage/Queued.ts:354
 
 Send a one-way message (fire and forget)
 
@@ -89,10 +90,11 @@ Send a one-way message (fire and forget)
 request(
    type, 
    payload, 
-options?): Promise<any>;
+   options?
+): Promise<any>;
 ```
 
-Defined in: uniform.ts/src/newer/next/storage/Queued.ts:290
+Defined in: modules/projects/uniform.ts/src/newer/next/storage/Queued.ts:290
 
 Send a request and wait for response
 
@@ -122,7 +124,7 @@ Send a request and wait for response
 setChannel(channel): void;
 ```
 
-Defined in: uniform.ts/src/newer/next/storage/Queued.ts:280
+Defined in: modules/projects/uniform.ts/src/newer/next/storage/Queued.ts:280
 
 Set the underlying channel when it becomes available
 
@@ -144,7 +146,7 @@ Set the underlying channel when it becomes available
 stream(type, data): AsyncGenerator<any>;
 ```
 
-Defined in: uniform.ts/src/newer/next/storage/Queued.ts:372
+Defined in: modules/projects/uniform.ts/src/newer/next/storage/Queued.ts:372
 
 Stream data with backpressure handling
 

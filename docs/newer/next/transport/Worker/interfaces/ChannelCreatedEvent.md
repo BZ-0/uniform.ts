@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: ChannelCreatedEvent
 
-Defined in: uniform.ts/src/newer/next/transport/Worker.ts:45
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/Worker.ts:45
 
 Channel created event
 
@@ -18,7 +18,7 @@ Channel created event
 channel: string;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/Worker.ts:47
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/Worker.ts:47
 
 Channel name
 
@@ -30,7 +30,7 @@ Channel name
 endpoint: ChannelEndpoint;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/Worker.ts:49
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/Worker.ts:49
 
 Endpoint reference
 
@@ -42,7 +42,7 @@ Endpoint reference
 sender: string;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/Worker.ts:51
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/Worker.ts:51
 
 Remote sender
 
@@ -54,6 +54,6 @@ Remote sender
 timestamp: number;
 ```
 
-Defined in: uniform.ts/src/newer/next/transport/Worker.ts:53
+Defined in: modules/projects/uniform.ts/src/newer/next/transport/Worker.ts:53
 
 Timestamp

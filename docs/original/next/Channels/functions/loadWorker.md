@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 function loadWorker(WX): Worker | null;
 ```
 
-Defined in: uniform.ts/src/original/next/Channels.ts:83
+Defined in: modules/projects/uniform.ts/src/original/next/Channels.ts:83
 
 ## Parameters
 

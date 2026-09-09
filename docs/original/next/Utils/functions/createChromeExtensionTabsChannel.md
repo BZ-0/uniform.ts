@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 function createChromeExtensionTabsChannel(channelName, options?): WorkerChannel;
 ```
 
-Defined in: uniform.ts/src/original/next/Utils.ts:64
+Defined in: modules/projects/uniform.ts/src/original/next/Utils.ts:64
 
 Create a chrome extension tabs channel (unified)
 Acts like BroadcastChannel but uses chrome.tabs messaging to communicate with content scripts

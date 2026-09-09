@@ -1,4 +1,4 @@
-[**@fest-lib/uniform v0.1.29**](../../../../../README.md)
+[**@fest-lib/uniform v0.1.31**](../../../../../README.md)
 
 ***
 
@@ -10,7 +10,7 @@
 function getContext(name): ChannelContext | undefined;
 ```
 
-Defined in: uniform.ts/src/newer/next/channel/ChannelContext.ts:1271
+Defined in: modules/projects/uniform.ts/src/newer/next/channel/ChannelContext.ts:1271
 
 Get an existing context by name
 
